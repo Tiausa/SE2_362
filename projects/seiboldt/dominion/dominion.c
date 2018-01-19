@@ -800,10 +800,6 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     if (nextPlayer > (state->numPlayers - 1)){
         nextPlayer = 0;
     }
-    if(callCutpurse(state, i, j, k, currentPlayer, handPos)  == 0)
-    {return 0;}
-
-
 
     if(card == cutpurse){
         if(callCutpurse(state, i, j, k, currentPlayer, handPos)  == 0)
