@@ -937,7 +937,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
 
-      //discard trashed card
+      //discard trashed card 
       for (i = 0; i < state->handCount[currentPlayer]; i++)
 	{
 	  if (state->hand[currentPlayer][i] == j)
