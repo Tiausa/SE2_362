@@ -685,8 +685,8 @@ callAdventurer(struct gameState *state, int currentPlayer, int *temphand, int dr
             shuffle(currentPlayer, state);
         }
         drawCard(currentPlayer, state);
-        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-2];//top card of hand is most recently drawn card.
-        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+        if (cardDrawn == copper || cardDrawn == silver)
             drawntreasure++;
         else{
             temphand[z]=cardDrawn;
