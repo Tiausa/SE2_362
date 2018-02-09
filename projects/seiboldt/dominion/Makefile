@@ -124,6 +124,7 @@ unittestresults.out: unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c
 	echo " \ncardEffect Results: " >> unittestresults.out
 	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> unittestresults.out
 	echo " \n" >> unittestresults.out
+	gcov -b dominion.c >> /dev/null
 
 
 
