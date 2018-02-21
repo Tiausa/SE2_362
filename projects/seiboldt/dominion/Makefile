@@ -41,7 +41,7 @@ randomtestcard2: randomtestcard2.c dominion.o interface.o rngs.o
 
 
 # Source: The gcov -abcfu ... comes from https://piazza.com/class/jbk4lmzexg4ce?cid=87
-randomtestresults.out: randomTestAdventurer.c RT_my_advent.c dominion.c interface.o rngs.o
+randomtestresults.out: randomTestAdventurer.c randomtestcard1.c randomtestcard2.c dominion.c interface.o rngs.o
 
 	echo “randomTestAdventurer.c” >> randomtestadventurer.out
 	gcc -o randomTestAdventurer randomTestAdventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
