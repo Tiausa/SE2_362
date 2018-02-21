@@ -27,105 +27,53 @@ interface.o: interface.h interface.c
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
-all: playdom player testDrawCard testBuyCard badTestDrawCard cardtest1 cardtest2 cardtest3 cardtest4 unittest1 unittest2 unittest3 unittest4 unittestresults.out
+all: playdom player testDrawCard testBuyCard badTestDrawCard randomtestadventurer randomtestcard1 randomtestcard2 randomtestresults.out
 
 
-cardtest1: cardtest1.c dominion.o interface.o rngs.o
-	gcc -o cardtest1 cardtest1.c -g dominion.o interface.o rngs.o $(CFLAGS)
+randomtestadventurer: randomtestadventurer.c dominion.o interface.o rngs.o
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.o interface.o rngs.o $(CFLAGS)
 
-cardtest2: cardtest2.c dominion.o interface.o rngs.o
-	gcc -o cardtest2 cardtest2.c -g dominion.o interface.o rngs.o $(CFLAGS)
+randomtestcard1: randomtestcard1.c dominion.o interface.o rngs.o
+	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o interface.o rngs.o $(CFLAGS)
 
-cardtest3: cardtest3.c dominion.o interface.o rngs.o
-	gcc -o cardtest3 cardtest3.c -g dominion.o interface.o rngs.o $(CFLAGS)
+randomtestcard2: randomtestcard2.c dominion.o interface.o rngs.o
+	gcc -o randomtestcard2 randomtestcard2.c -g dominion.o interface.o rngs.o $(CFLAGS)
 
-cardtest4: cardtest4.c dominion.o interface.o rngs.o
-	gcc -o cardtest4 cardtest4.c -g dominion.o interface.o rngs.o $(CFLAGS)
-
-unittest1: unittest1.c dominion.o interface.o rngs.o
-	gcc -o unittest1 unittest1.c -g dominion.o interface.o rngs.o $(CFLAGS)
-
-unittest2: unittest2.c dominion.o interface.o rngs.o
-	gcc -o unittest2 unittest2.c -g dominion.o interface.o rngs.o $(CFLAGS)
-
-unittest3: unittest3.c dominion.o interface.o rngs.o
-	gcc -o unittest3 unittest3.c -g dominion.o interface.o rngs.o $(CFLAGS)
-
-unittest4: unittest4.c dominion.o interface.o rngs.o
-	gcc -o unittest4 unittest4.c -g dominion.o interface.o rngs.o $(CFLAGS)
 
 # Source: The gcov -abcfu ... comes from https://piazza.com/class/jbk4lmzexg4ce?cid=87
-unittestresults.out: unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.c interface.o rngs.o
+randomtestresults.out: randomtestadventurer.c randomtestcard1.c randomtestcard2.c dominion.c interface.o rngs.o
 
-	echo “unittest1.c” >> unittestresults.out
-	gcc -o unittest1 unittest1.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./unittest1 >> unittestresults.out
+	echo “randomTestAdventurer.c” >> randomtestadventurer.out
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
+	./randomtestadventurer >> randomtestadventurer.out
 	gcov -b dominion.c >> /dev/null
-	gcov -abcfu dominion.c | sed -n '/fullDeckCount/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
+	echo " \ncallAdventurer() Results: " >> randomtestadventurer.out
+	gcov -abcfu dominion.c | sed -n '/callAdventurer/{n;p; n;p; n;p;}' >> randomtestadventurer.out
+	echo " \ncardEffect Results: " >> randomtestadventurer.out
+	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> randomtestadventurer.out
+	echo " \n" >> randomtestadventurer.out
 
-	echo “unittest2.c” >> unittestresults.out
-	gcc -o unittest2 unittest2.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./unittest2 >> unittestresults.out
+	echo “randomtestcard1.c” >> randomtestcard1.out
+	gcc -o randomtestcard1 randomtestcard1.c -g dominion.c interface.o rngs.o $(CFLAGS)
+	./randomtestcard1 >> randomtestcard1.out
 	gcov -b dominion.c >> /dev/null
-	gcov -abcfu dominion.c | sed -n '/updateCoins/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
+	echo " \ncallSmithy() Results: " >> randomtestcard1.out
+	gcov -abcfu dominion.c | sed -n '/callSmithy/{n;p; n;p; n;p;}' >> randomtestcard1.out
+	echo " \ncardEffect Results: " >> randomtestcard1.out
+	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> randomtestcard1.out
+	echo " \n" >> randomtestcard1.out
 
-	echo “unittest3.c” >> unittestresults.out
-	gcc -o unittest3 unittest3.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./unittest3 >> unittestresults.out
+	echo “randomtestcard2.c” >> randomtestcard2.out
+	gcc -o randomtestcard2 randomtestcard2.c -g dominion.c interface.o rngs.o $(CFLAGS)
+	./randomtestcard2 >> randomtestcard2.out
 	gcov -b dominion.c >> /dev/null
-	gcov -abcfu dominion.c | sed -n '/whoseTurn/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
-	echo “unittest4.c” >> unittestresults.out
-	gcc -o unittest4 unittest4.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./unittest4 >> unittestresults.out
+	echo " \ncallSteward() Results: " >> randomtestcard2.out
+	gcov -abcfu dominion.c | sed -n '/callSteward/{n;p; n;p; n;p;}' >> randomtestcard2.out
+	echo " \ncardEffect Results: " >> randomtestcard2.out
+	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> randomtestcard2.out
+	echo " \n" >> randomtestcard2.out
 	gcov -b dominion.c >> /dev/null
-	gcov -abcfu dominion.c | sed -n '/discardCard/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
-	echo “cardtest1.c” >> unittestresults.out
-	gcc -o cardtest1 cardtest1.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./cardtest1 >> unittestresults.out
-	gcov -b dominion.c >> /dev/null
-	echo " \ncallSmithy() Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/callSmithy/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \ncardEffect Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
-	echo “cardtest2.c” >> unittestresults.out
-	gcc -o cardtest2 cardtest2.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./cardtest2 >> unittestresults.out
-	gcov -b dominion.c >> /dev/null
-	echo " \ncallAdventurer() Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/callAdventurer/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \ncardEffect Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
-	echo “cardtest3.c” >> unittestresults.out
-	gcc -o cardtest3 cardtest3.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./cardtest3 >> unittestresults.out
-	gcov -b dominion.c >> /dev/null
-	echo " \ncallGreatHall() Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/callGreatHall/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \ncardEffect Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
-	echo “cardtest4.c” >> unittestresults.out
-	gcc -o cardtest4 cardtest4.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./cardtest4 >> unittestresults.out
-	gcov -b dominion.c >> /dev/null
-	echo " \ncallCutpurse() Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/callCutpurse/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \ncardEffect Results: " >> unittestresults.out
-	gcov -abcfu dominion.c | sed -n '/cardEffect/{n;p; n;p; n;p;}' >> unittestresults.out
-	echo " \n" >> unittestresults.out
-
 
 
 clean:
-	rm -f *.o playdom.exe playdom test.exe test player player.exe testInit testInit.exe cardtest1.exe cardtest1.exe cardtest2 cardtest2.exe cardtest3 cardtest3.exe cardtest4 cardtest4.exe unittest1 unittest1.exe unittest2 unittest2.exe unittest3 unittest3.exe unittest4 unittest4.exe *.gcov *.gcda *.gcno *.so *.gcov *.gcda *.gcno *.so *.out
+	rm -f *.o playdom.exe playdom test.exe test player player.exe testInit testInit.exe randomtestadventurer.exe randomtestcard1.exe randomtestcard2.exe randomtestadventurer randomtestcard1 randomtestcard2 *.gcov *.gcda *.gcno *.so *.gcov *.gcda *.gcno *.so *.out

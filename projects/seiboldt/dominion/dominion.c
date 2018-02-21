@@ -645,6 +645,7 @@ int getCost(int cardNumber)
 
 int callCutpurse(struct gameState *state, int i, int j, int k, int currentPlayer, int handPos) {
     updateCoins(currentPlayer, state, 2);
+
     for (i = 0; i < state->numPlayers; i++)
     {
         if (i != currentPlayer)
@@ -705,7 +706,7 @@ callAdventurer(struct gameState *state, int currentPlayer, int *temphand, int dr
 int callSmithy(int i, int currentPlayer, struct gameState *state, int handPos) {
 
 
-    for (i = 0; i < 2; i++) {
+    for (i = 0; i < 3; i++) {
         drawCard(currentPlayer, state);
     }
 
@@ -782,6 +783,25 @@ int callMinion(struct gameState *state, int handPos, int currentPlayer, int choi
     return 0;
 }
 
+int callSteward(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus, int currentPlayer) {
+    if (choice1 == 1) {
+//+2 cards
+        drawCard(currentPlayer, state);
+        drawCard(currentPlayer, state);
+    } else if (choice1 == 2) {
+//+2 coins
+        state->coins = state->coins + 2;
+    } else {
+//trash 2 cards in hand
+        discardCard(choice2, currentPlayer, state, 1);
+        discardCard(choice3, currentPlayer, state, 1);
+    }
+
+//discard card from hand
+    discardCard(handPos, currentPlayer, state, 0);
+    return 0;
+}
+
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
     int i = 0;
@@ -826,7 +846,11 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
         {return 0;}
         else return -1;
     }
-
+    if(card == steward){
+        if(callSteward(card, choice1, choice2, choice3, state, handPos, bonus, currentPlayer) == 0)
+            {return 0;}
+            else return -1;
+    }
 
 
 
@@ -937,7 +961,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
 
-      //discard trashed card 
+      //discard trashed card
       for (i = 0; i < state->handCount[currentPlayer]; i++)
 	{
 	  if (state->hand[currentPlayer][i] == j)
@@ -1003,7 +1027,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	    }
 	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
 	    state->handCount[currentPlayer]--;
-	    card_not_discarded = 0;//Exit the loop
+	    card_not_discarded = 0;//Exit the loopfullde
 	  }
 	  else if (p > state->handCount[currentPlayer]){
 	    if(DEBUG) {
@@ -1038,31 +1062,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	    
       
       return 0;
-		
 
-		
-    case steward:
-      if (choice1 == 1)
-	{
-	  //+2 cards
-	  drawCard(currentPlayer, state);
-	  drawCard(currentPlayer, state);
-	}
-      else if (choice1 == 2)
-	{
-	  //+2 coins
-	  state->coins = state->coins + 2;
-	}
-      else
-	{
-	  //trash 2 cards in hand
-	  discardCard(choice2, currentPlayer, state, 1);
-	  discardCard(choice3, currentPlayer, state, 1);
-	}
-			
-      //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
-      return 0;
 		
     case tribute:
       if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){

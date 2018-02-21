@@ -1,0 +1,3699 @@
+“randomtestcard2.c”
+
+--------------- Randomly Testing Card: steward --------------
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 14, after cardEffect = 11, expected = 11
+coin count original = 14, after cardEffect = 11
+discard count original = 85, after cardEffect = 85, expected = 87
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 72, after cardEffect = 71, expected = 71
+coin count original = 72, after cardEffect = 71, expected with coins added = 74
+FAILURE: Testing found bug in steward
+discard count original = 138, after cardEffect = 138, expected = 138
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 84, after cardEffect = 83, expected = 83
+coin count original = 84, after cardEffect = 83, expected with coins added = 86
+FAILURE: Testing found bug in steward
+discard count original = 170, after cardEffect = 170, expected = 170
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 35, after cardEffect = 32, expected = 32
+coin count original = 35, after cardEffect = 32
+discard count original = 93, after cardEffect = 93, expected = 95
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 55, after cardEffect = 56, expected = 56
+discard count original = 93, after cardEffect = 93, expected = 93
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 226, after cardEffect = 223, expected = 223
+coin count original = 226, after cardEffect = 223
+discard count original = 183, after cardEffect = 183, expected = 185
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 18, after cardEffect = 19, expected = 19
+discard count original = 48, after cardEffect = 48, expected = 48
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 75, after cardEffect = 76, expected = 76
+discard count original = 101, after cardEffect = 101, expected = 101
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 206, after cardEffect = 203, expected = 203
+coin count original = 206, after cardEffect = 203
+discard count original = 83, after cardEffect = 83, expected = 85
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 38, after cardEffect = 37, expected = 37
+coin count original = 38, after cardEffect = 37, expected with coins added = 40
+FAILURE: Testing found bug in steward
+discard count original = 57, after cardEffect = 57, expected = 57
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 58, after cardEffect = 55, expected = 55
+coin count original = 58, after cardEffect = 55
+discard count original = 56, after cardEffect = 56, expected = 58
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 99
+discard count original = 96, after cardEffect = 0, expected = 96
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 3, after cardEffect = 3, expected = 4
+FAILURE: Testing found bug in steward
+discard count original = 0, after cardEffect = 0, expected = 0
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 79, after cardEffect = 76, expected = 76
+coin count original = 79, after cardEffect = 76
+discard count original = 65, after cardEffect = 65, expected = 67
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 52, after cardEffect = 53, expected = 53
+discard count original = 102, after cardEffect = 102, expected = 102
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 144, expected = 144
+coin count original = 145, after cardEffect = 144, expected with coins added = 147
+FAILURE: Testing found bug in steward
+discard count original = 13, after cardEffect = 13, expected = 13
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 61, after cardEffect = 60, expected = 60
+coin count original = 61, after cardEffect = 60, expected with coins added = 63
+FAILURE: Testing found bug in steward
+discard count original = 20, after cardEffect = 20, expected = 20
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 194, after cardEffect = 191, expected = 191
+coin count original = 194, after cardEffect = 191
+discard count original = 115, after cardEffect = 115, expected = 117
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 99, expected = 99
+coin count original = 100, after cardEffect = 99, expected with coins added = 102
+FAILURE: Testing found bug in steward
+discard count original = 19, after cardEffect = 19, expected = 19
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 82, after cardEffect = 81, expected = 81
+coin count original = 82, after cardEffect = 81, expected with coins added = 84
+FAILURE: Testing found bug in steward
+discard count original = 29, after cardEffect = 29, expected = 29
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 149, after cardEffect = 148, expected = 148
+coin count original = 149, after cardEffect = 148, expected with coins added = 151
+FAILURE: Testing found bug in steward
+discard count original = 122, after cardEffect = 122, expected = 122
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 242, after cardEffect = 243, expected = 243
+discard count original = 32, after cardEffect = 0, expected = 32
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 65, after cardEffect = 62, expected = 62
+coin count original = 65, after cardEffect = 62
+discard count original = 150, after cardEffect = 150, expected = 152
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 122, after cardEffect = 119, expected = 119
+coin count original = 122, after cardEffect = 119
+discard count original = 37, after cardEffect = 37, expected = 39
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 222, after cardEffect = 219, expected = 219
+coin count original = 222, after cardEffect = 219
+discard count original = 182, after cardEffect = 182, expected = 184
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 86
+discard count original = 158, after cardEffect = 158, expected = 158
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 105, after cardEffect = 104, expected = 104
+coin count original = 105, after cardEffect = 104, expected with coins added = 107
+FAILURE: Testing found bug in steward
+discard count original = 158, after cardEffect = 158, expected = 158
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 114, after cardEffect = 115, expected = 115
+discard count original = 195, after cardEffect = 195, expected = 195
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 68, after cardEffect = 67, expected = 67
+coin count original = 68, after cardEffect = 67, expected with coins added = 70
+FAILURE: Testing found bug in steward
+discard count original = 113, after cardEffect = 113, expected = 113
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 126, after cardEffect = 125, expected = 125
+coin count original = 126, after cardEffect = 125, expected with coins added = 128
+FAILURE: Testing found bug in steward
+discard count original = 0, after cardEffect = 0, expected = 0
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 69, after cardEffect = 70, expected = 70
+discard count original = 202, after cardEffect = 0, expected = 202
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 51, after cardEffect = 52, expected = 52
+discard count original = 68, after cardEffect = 68, expected = 68
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 108, after cardEffect = 105, expected = 105
+coin count original = 108, after cardEffect = 105
+discard count original = 121, after cardEffect = 121, expected = 123
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 24
+discard count original = 208, after cardEffect = 208, expected = 208
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 72, expected = 72
+discard count original = 77, after cardEffect = 0, expected = 77
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 91, after cardEffect = 90, expected = 90
+coin count original = 91, after cardEffect = 90, expected with coins added = 93
+FAILURE: Testing found bug in steward
+discard count original = 76, after cardEffect = 76, expected = 76
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 164, expected = 164
+coin count original = 165, after cardEffect = 164, expected with coins added = 167
+FAILURE: Testing found bug in steward
+discard count original = 221, after cardEffect = 221, expected = 221
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 95, expected = 95
+coin count original = 96, after cardEffect = 95, expected with coins added = 98
+FAILURE: Testing found bug in steward
+discard count original = 19, after cardEffect = 19, expected = 19
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 112, after cardEffect = 111, expected = 111
+coin count original = 112, after cardEffect = 111, expected with coins added = 114
+FAILURE: Testing found bug in steward
+discard count original = 85, after cardEffect = 85, expected = 85
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 120, after cardEffect = 119, expected = 119
+coin count original = 120, after cardEffect = 119, expected with coins added = 122
+FAILURE: Testing found bug in steward
+discard count original = 227, after cardEffect = 227, expected = 227
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 235, expected = 235
+coin count original = 238, after cardEffect = 235
+discard count original = 32, after cardEffect = 32, expected = 34
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 94, after cardEffect = 95, expected = 95
+discard count original = 40, after cardEffect = 0, expected = 40
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 12, after cardEffect = 13, expected = 13
+discard count original = 240, after cardEffect = 240, expected = 240
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 190, expected = 190
+coin count original = 193, after cardEffect = 190
+discard count original = 38, after cardEffect = 38, expected = 40
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 115, after cardEffect = 116, expected = 116
+discard count original = 49, after cardEffect = 49, expected = 49
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 217, after cardEffect = 214, expected = 214
+coin count original = 217, after cardEffect = 214
+discard count original = 247, after cardEffect = 247, expected = 249
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 86
+discard count original = 51, after cardEffect = 51, expected = 51
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 97, expected = 97
+coin count original = 98, after cardEffect = 97, expected with coins added = 100
+FAILURE: Testing found bug in steward
+discard count original = 4, after cardEffect = 4, expected = 4
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 156, after cardEffect = 155, expected = 155
+coin count original = 156, after cardEffect = 155, expected with coins added = 158
+FAILURE: Testing found bug in steward
+discard count original = 57, after cardEffect = 57, expected = 57
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 41, expected = 41
+discard count original = 57, after cardEffect = 0, expected = 57
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 115, expected = 115
+coin count original = 118, after cardEffect = 115
+discard count original = 12, after cardEffect = 12, expected = 14
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 138, after cardEffect = 139, expected = 139
+discard count original = 12, after cardEffect = 12, expected = 12
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 182, after cardEffect = 179, expected = 179
+coin count original = 182, after cardEffect = 179
+discard count original = 70, after cardEffect = 70, expected = 72
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 50, after cardEffect = 51, expected = 51
+discard count original = 64, after cardEffect = 64, expected = 64
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 159, after cardEffect = 160, expected = 160
+discard count original = 20, after cardEffect = 20, expected = 20
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 136, after cardEffect = 135, expected = 135
+coin count original = 136, after cardEffect = 135, expected with coins added = 138
+FAILURE: Testing found bug in steward
+discard count original = 77, after cardEffect = 77, expected = 77
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 70, after cardEffect = 69, expected = 69
+coin count original = 70, after cardEffect = 69, expected with coins added = 72
+FAILURE: Testing found bug in steward
+discard count original = 73, after cardEffect = 73, expected = 73
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 142, after cardEffect = 141, expected = 141
+coin count original = 142, after cardEffect = 141, expected with coins added = 144
+FAILURE: Testing found bug in steward
+discard count original = 141, after cardEffect = 141, expected = 141
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 29, expected = 29
+discard count original = 90, after cardEffect = 0, expected = 90
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 209, after cardEffect = 206, expected = 206
+coin count original = 209, after cardEffect = 206
+discard count original = 138, after cardEffect = 138, expected = 140
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 162, after cardEffect = 159, expected = 159
+coin count original = 162, after cardEffect = 159
+discard count original = 150, after cardEffect = 150, expected = 152
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 233, after cardEffect = 234, expected = 234
+discard count original = 96, after cardEffect = 96, expected = 96
+Number of original played stewards = 0, after cardEffect = 1 
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 102
+discard count original = 150, after cardEffect = 0, expected = 150
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 146
+discard count original = 105, after cardEffect = 0, expected = 105
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 125, after cardEffect = 124, expected = 124
+coin count original = 125, after cardEffect = 124, expected with coins added = 127
+FAILURE: Testing found bug in steward
+discard count original = 109, after cardEffect = 109, expected = 109
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 56, after cardEffect = 57, expected = 57
+discard count original = 157, after cardEffect = 157, expected = 157
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 164, expected = 164
+coin count original = 165, after cardEffect = 164, expected with coins added = 167
+FAILURE: Testing found bug in steward
+discard count original = 114, after cardEffect = 114, expected = 114
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 80, after cardEffect = 79, expected = 79
+coin count original = 80, after cardEffect = 79, expected with coins added = 82
+FAILURE: Testing found bug in steward
+discard count original = 115, after cardEffect = 115, expected = 115
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 198, after cardEffect = 195, expected = 195
+coin count original = 198, after cardEffect = 195
+discard count original = 170, after cardEffect = 170, expected = 172
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 97, after cardEffect = 94, expected = 94
+coin count original = 97, after cardEffect = 94
+discard count original = 0, after cardEffect = 0, expected = 2
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 37, expected = 37
+coin count original = 40, after cardEffect = 37
+discard count original = 122, after cardEffect = 122, expected = 124
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 153, after cardEffect = 150, expected = 150
+coin count original = 153, after cardEffect = 150
+discard count original = 176, after cardEffect = 176, expected = 178
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 115, expected = 115
+coin count original = 118, after cardEffect = 115
+discard count original = 8, after cardEffect = 8, expected = 10
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 24
+discard count original = 77, after cardEffect = 77, expected = 77
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 45, after cardEffect = 46, expected = 46
+discard count original = 189, after cardEffect = 189, expected = 189
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 99, expected = 99
+coin count original = 100, after cardEffect = 99, expected with coins added = 102
+FAILURE: Testing found bug in steward
+discard count original = 129, after cardEffect = 129, expected = 129
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 43, after cardEffect = 42, expected = 42
+coin count original = 43, after cardEffect = 42, expected with coins added = 45
+FAILURE: Testing found bug in steward
+discard count original = 85, after cardEffect = 85, expected = 85
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 0, after cardEffect = 1, expected = 1
+discard count original = 196, after cardEffect = 0, expected = 196
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 121, after cardEffect = 120, expected = 120
+coin count original = 121, after cardEffect = 120, expected with coins added = 123
+FAILURE: Testing found bug in steward
+discard count original = 138, after cardEffect = 138, expected = 138
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 26, after cardEffect = 23, expected = 23
+coin count original = 26, after cardEffect = 23
+discard count original = 40, after cardEffect = 40, expected = 42
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 141, after cardEffect = 140, expected = 140
+coin count original = 141, after cardEffect = 140, expected with coins added = 143
+FAILURE: Testing found bug in steward
+discard count original = 208, after cardEffect = 208, expected = 208
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 104, after cardEffect = 105, expected = 105
+discard count original = 93, after cardEffect = 0, expected = 93
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 161, after cardEffect = 158, expected = 158
+coin count original = 161, after cardEffect = 158
+discard count original = 146, after cardEffect = 146, expected = 148
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 95, expected = 95
+coin count original = 96, after cardEffect = 95, expected with coins added = 98
+FAILURE: Testing found bug in steward
+discard count original = 215, after cardEffect = 215, expected = 215
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 214, after cardEffect = 211, expected = 211
+coin count original = 214, after cardEffect = 211
+discard count original = 19, after cardEffect = 19, expected = 21
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 144, after cardEffect = 143, expected = 143
+coin count original = 144, after cardEffect = 143, expected with coins added = 146
+FAILURE: Testing found bug in steward
+discard count original = 101, after cardEffect = 101, expected = 101
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 235, expected = 235
+coin count original = 238, after cardEffect = 235
+discard count original = 228, after cardEffect = 228, expected = 230
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 169, after cardEffect = 166, expected = 166
+coin count original = 169, after cardEffect = 166
+discard count original = 26, after cardEffect = 26, expected = 28
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 164, expected = 164
+coin count original = 165, after cardEffect = 164, expected with coins added = 167
+FAILURE: Testing found bug in steward
+discard count original = 110, after cardEffect = 110, expected = 110
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 190, expected = 190
+coin count original = 193, after cardEffect = 190
+discard count original = 234, after cardEffect = 234, expected = 236
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 124, after cardEffect = 123, expected = 123
+coin count original = 124, after cardEffect = 123, expected with coins added = 126
+FAILURE: Testing found bug in steward
+discard count original = 32, after cardEffect = 32, expected = 32
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 147, after cardEffect = 148, expected = 148
+discard count original = 65, after cardEffect = 65, expected = 65
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 148, after cardEffect = 145, expected = 145
+coin count original = 148, after cardEffect = 145
+discard count original = 241, after cardEffect = 241, expected = 243
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 16, after cardEffect = 17, expected = 17
+discard count original = 45, after cardEffect = 45, expected = 45
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 130, after cardEffect = 129, expected = 129
+coin count original = 130, after cardEffect = 129, expected with coins added = 132
+FAILURE: Testing found bug in steward
+discard count original = 20, after cardEffect = 20, expected = 20
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 73, after cardEffect = 72, expected = 72
+coin count original = 73, after cardEffect = 72, expected with coins added = 75
+FAILURE: Testing found bug in steward
+discard count original = 142, after cardEffect = 142, expected = 142
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 221, after cardEffect = 222, expected = 222
+discard count original = 51, after cardEffect = 0, expected = 51
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 151, after cardEffect = 150, expected = 150
+coin count original = 151, after cardEffect = 150, expected with coins added = 153
+FAILURE: Testing found bug in steward
+discard count original = 28, after cardEffect = 28, expected = 28
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 4, after cardEffect = 1, expected = 1
+coin count original = 4, after cardEffect = 1
+discard count original = 28, after cardEffect = 28, expected = 30
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 113, after cardEffect = 112, expected = 112
+coin count original = 113, after cardEffect = 112, expected with coins added = 115
+FAILURE: Testing found bug in steward
+discard count original = 64, after cardEffect = 64, expected = 64
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 133, after cardEffect = 134, expected = 134
+discard count original = 149, after cardEffect = 149, expected = 149
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 25, after cardEffect = 26, expected = 26
+discard count original = 36, after cardEffect = 36, expected = 36
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 67, after cardEffect = 66, expected = 66
+coin count original = 67, after cardEffect = 66, expected with coins added = 69
+FAILURE: Testing found bug in steward
+discard count original = 71, after cardEffect = 71, expected = 71
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 154, after cardEffect = 155, expected = 155
+discard count original = 158, after cardEffect = 0, expected = 158
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 8, after cardEffect = 7, expected = 7
+coin count original = 8, after cardEffect = 7, expected with coins added = 10
+FAILURE: Testing found bug in steward
+discard count original = 158, after cardEffect = 158, expected = 158
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 209, after cardEffect = 206, expected = 206
+coin count original = 209, after cardEffect = 206
+discard count original = 84, after cardEffect = 84, expected = 86
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 140, after cardEffect = 137, expected = 137
+coin count original = 140, after cardEffect = 137
+discard count original = 131, after cardEffect = 131, expected = 133
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 27, expected = 27
+coin count original = 28, after cardEffect = 27, expected with coins added = 30
+FAILURE: Testing found bug in steward
+discard count original = 0, after cardEffect = 0, expected = 0
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 164, after cardEffect = 161, expected = 161
+coin count original = 164, after cardEffect = 161
+discard count original = 90, after cardEffect = 90, expected = 92
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 32, after cardEffect = 33, expected = 33
+discard count original = 144, after cardEffect = 0, expected = 144
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 11, after cardEffect = 12, expected = 12
+discard count original = 121, after cardEffect = 0, expected = 121
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 81, after cardEffect = 82, expected = 82
+discard count original = 246, after cardEffect = 246, expected = 246
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 237, after cardEffect = 238, expected = 238
+discard count original = 151, after cardEffect = 151, expected = 151
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 32, after cardEffect = 33, expected = 33
+discard count original = 130, after cardEffect = 130, expected = 130
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 36, after cardEffect = 37, expected = 37
+discard count original = 3, after cardEffect = 0, expected = 3
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 129, after cardEffect = 128, expected = 128
+coin count original = 129, after cardEffect = 128, expected with coins added = 131
+FAILURE: Testing found bug in steward
+discard count original = 164, after cardEffect = 164, expected = 164
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 14, after cardEffect = 11, expected = 11
+coin count original = 14, after cardEffect = 11
+discard count original = 85, after cardEffect = 85, expected = 87
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 72, after cardEffect = 71, expected = 71
+coin count original = 72, after cardEffect = 71, expected with coins added = 74
+FAILURE: Testing found bug in steward
+discard count original = 138, after cardEffect = 138, expected = 138
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 84, after cardEffect = 83, expected = 83
+coin count original = 84, after cardEffect = 83, expected with coins added = 86
+FAILURE: Testing found bug in steward
+discard count original = 170, after cardEffect = 170, expected = 170
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 35, after cardEffect = 32, expected = 32
+coin count original = 35, after cardEffect = 32
+discard count original = 93, after cardEffect = 93, expected = 95
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 55, after cardEffect = 56, expected = 56
+discard count original = 93, after cardEffect = 93, expected = 93
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 226, after cardEffect = 223, expected = 223
+coin count original = 226, after cardEffect = 223
+discard count original = 183, after cardEffect = 183, expected = 185
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 18, after cardEffect = 19, expected = 19
+discard count original = 48, after cardEffect = 48, expected = 48
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 75, after cardEffect = 76, expected = 76
+discard count original = 101, after cardEffect = 101, expected = 101
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 180, after cardEffect = 177, expected = 177
+coin count original = 180, after cardEffect = 177
+discard count original = 189, after cardEffect = 189, expected = 191
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 38, after cardEffect = 37, expected = 37
+coin count original = 38, after cardEffect = 37, expected with coins added = 40
+FAILURE: Testing found bug in steward
+discard count original = 57, after cardEffect = 57, expected = 57
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 58, after cardEffect = 55, expected = 55
+coin count original = 58, after cardEffect = 55
+discard count original = 56, after cardEffect = 56, expected = 58
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 99
+discard count original = 96, after cardEffect = 0, expected = 96
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 1 
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 21, after cardEffect = 18, expected = 18
+coin count original = 21, after cardEffect = 18
+discard count original = 12, after cardEffect = 12, expected = 14
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 79, after cardEffect = 76, expected = 76
+coin count original = 79, after cardEffect = 76
+discard count original = 65, after cardEffect = 65, expected = 67
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 52, after cardEffect = 53, expected = 53
+discard count original = 102, after cardEffect = 102, expected = 102
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 144, expected = 144
+coin count original = 145, after cardEffect = 144, expected with coins added = 147
+FAILURE: Testing found bug in steward
+discard count original = 13, after cardEffect = 13, expected = 13
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 61, after cardEffect = 60, expected = 60
+coin count original = 61, after cardEffect = 60, expected with coins added = 63
+FAILURE: Testing found bug in steward
+discard count original = 20, after cardEffect = 20, expected = 20
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 194, after cardEffect = 191, expected = 191
+coin count original = 194, after cardEffect = 191
+discard count original = 115, after cardEffect = 115, expected = 117
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 99, expected = 99
+coin count original = 100, after cardEffect = 99, expected with coins added = 102
+FAILURE: Testing found bug in steward
+discard count original = 19, after cardEffect = 19, expected = 19
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 82, after cardEffect = 81, expected = 81
+coin count original = 82, after cardEffect = 81, expected with coins added = 84
+FAILURE: Testing found bug in steward
+discard count original = 29, after cardEffect = 29, expected = 29
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 149, after cardEffect = 148, expected = 148
+coin count original = 149, after cardEffect = 148, expected with coins added = 151
+FAILURE: Testing found bug in steward
+discard count original = 122, after cardEffect = 122, expected = 122
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 242, after cardEffect = 243, expected = 243
+discard count original = 32, after cardEffect = 0, expected = 32
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 65, after cardEffect = 62, expected = 62
+coin count original = 65, after cardEffect = 62
+discard count original = 150, after cardEffect = 150, expected = 152
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 41, after cardEffect = 42, expected = 42
+discard count original = 134, after cardEffect = 134, expected = 134
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 197, after cardEffect = 194, expected = 194
+coin count original = 197, after cardEffect = 194
+discard count original = 39, after cardEffect = 39, expected = 41
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 86
+discard count original = 158, after cardEffect = 158, expected = 158
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 105, after cardEffect = 104, expected = 104
+coin count original = 105, after cardEffect = 104, expected with coins added = 107
+FAILURE: Testing found bug in steward
+discard count original = 158, after cardEffect = 158, expected = 158
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 114, after cardEffect = 115, expected = 115
+discard count original = 195, after cardEffect = 195, expected = 195
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 68, after cardEffect = 67, expected = 67
+coin count original = 68, after cardEffect = 67, expected with coins added = 70
+FAILURE: Testing found bug in steward
+discard count original = 113, after cardEffect = 113, expected = 113
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 126, after cardEffect = 125, expected = 125
+coin count original = 126, after cardEffect = 125, expected with coins added = 128
+FAILURE: Testing found bug in steward
+discard count original = 0, after cardEffect = 0, expected = 0
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 69, after cardEffect = 70, expected = 70
+discard count original = 202, after cardEffect = 0, expected = 202
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 51, after cardEffect = 52, expected = 52
+discard count original = 68, after cardEffect = 68, expected = 68
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 108, after cardEffect = 105, expected = 105
+coin count original = 108, after cardEffect = 105
+discard count original = 121, after cardEffect = 121, expected = 123
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 24
+discard count original = 208, after cardEffect = 208, expected = 208
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 72, expected = 72
+discard count original = 77, after cardEffect = 0, expected = 77
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 91, after cardEffect = 90, expected = 90
+coin count original = 91, after cardEffect = 90, expected with coins added = 93
+FAILURE: Testing found bug in steward
+discard count original = 76, after cardEffect = 76, expected = 76
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 164, expected = 164
+coin count original = 165, after cardEffect = 164, expected with coins added = 167
+FAILURE: Testing found bug in steward
+discard count original = 221, after cardEffect = 221, expected = 221
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 70, expected = 70
+coin count original = 71, after cardEffect = 70, expected with coins added = 73
+FAILURE: Testing found bug in steward
+discard count original = 125, after cardEffect = 125, expected = 125
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 112, after cardEffect = 111, expected = 111
+coin count original = 112, after cardEffect = 111, expected with coins added = 114
+FAILURE: Testing found bug in steward
+discard count original = 85, after cardEffect = 85, expected = 85
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 120, after cardEffect = 119, expected = 119
+coin count original = 120, after cardEffect = 119, expected with coins added = 122
+FAILURE: Testing found bug in steward
+discard count original = 227, after cardEffect = 227, expected = 227
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 235, expected = 235
+coin count original = 238, after cardEffect = 235
+discard count original = 32, after cardEffect = 32, expected = 34
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 94, after cardEffect = 95, expected = 95
+discard count original = 40, after cardEffect = 0, expected = 40
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 12, after cardEffect = 13, expected = 13
+discard count original = 240, after cardEffect = 240, expected = 240
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 190, expected = 190
+coin count original = 193, after cardEffect = 190
+discard count original = 38, after cardEffect = 38, expected = 40
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 115, after cardEffect = 116, expected = 116
+discard count original = 49, after cardEffect = 49, expected = 49
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 217, after cardEffect = 214, expected = 214
+coin count original = 217, after cardEffect = 214
+discard count original = 247, after cardEffect = 247, expected = 249
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 86
+discard count original = 51, after cardEffect = 51, expected = 51
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 97, expected = 97
+coin count original = 98, after cardEffect = 97, expected with coins added = 100
+FAILURE: Testing found bug in steward
+discard count original = 4, after cardEffect = 4, expected = 4
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 156, after cardEffect = 155, expected = 155
+coin count original = 156, after cardEffect = 155, expected with coins added = 158
+FAILURE: Testing found bug in steward
+discard count original = 57, after cardEffect = 57, expected = 57
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 41, expected = 41
+discard count original = 57, after cardEffect = 0, expected = 57
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 115, expected = 115
+coin count original = 118, after cardEffect = 115
+discard count original = 12, after cardEffect = 12, expected = 14
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 138, after cardEffect = 139, expected = 139
+discard count original = 12, after cardEffect = 12, expected = 12
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 182, after cardEffect = 179, expected = 179
+coin count original = 182, after cardEffect = 179
+discard count original = 70, after cardEffect = 70, expected = 72
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 102
+discard count original = 133, after cardEffect = 133, expected = 133
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 159, after cardEffect = 160, expected = 160
+discard count original = 20, after cardEffect = 20, expected = 20
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 136, after cardEffect = 135, expected = 135
+coin count original = 136, after cardEffect = 135, expected with coins added = 138
+FAILURE: Testing found bug in steward
+discard count original = 77, after cardEffect = 77, expected = 77
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 70, after cardEffect = 69, expected = 69
+coin count original = 70, after cardEffect = 69, expected with coins added = 72
+FAILURE: Testing found bug in steward
+discard count original = 73, after cardEffect = 73, expected = 73
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 142, after cardEffect = 141, expected = 141
+coin count original = 142, after cardEffect = 141, expected with coins added = 144
+FAILURE: Testing found bug in steward
+discard count original = 141, after cardEffect = 141, expected = 141
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 29, expected = 29
+discard count original = 90, after cardEffect = 0, expected = 90
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 53, after cardEffect = 50, expected = 50
+coin count original = 53, after cardEffect = 50
+discard count original = 28, after cardEffect = 28, expected = 30
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 162, after cardEffect = 159, expected = 159
+coin count original = 162, after cardEffect = 159
+discard count original = 150, after cardEffect = 150, expected = 152
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 233, after cardEffect = 234, expected = 234
+discard count original = 96, after cardEffect = 96, expected = 96
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 102
+discard count original = 150, after cardEffect = 0, expected = 150
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 146
+discard count original = 105, after cardEffect = 0, expected = 105
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 125, after cardEffect = 124, expected = 124
+coin count original = 125, after cardEffect = 124, expected with coins added = 127
+FAILURE: Testing found bug in steward
+discard count original = 109, after cardEffect = 109, expected = 109
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 56, after cardEffect = 57, expected = 57
+discard count original = 157, after cardEffect = 157, expected = 157
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 164, expected = 164
+coin count original = 165, after cardEffect = 164, expected with coins added = 167
+FAILURE: Testing found bug in steward
+discard count original = 114, after cardEffect = 114, expected = 114
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 80, after cardEffect = 79, expected = 79
+coin count original = 80, after cardEffect = 79, expected with coins added = 82
+FAILURE: Testing found bug in steward
+discard count original = 115, after cardEffect = 115, expected = 115
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 198, after cardEffect = 195, expected = 195
+coin count original = 198, after cardEffect = 195
+discard count original = 170, after cardEffect = 170, expected = 172
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 97, after cardEffect = 94, expected = 94
+coin count original = 97, after cardEffect = 94
+discard count original = 0, after cardEffect = 0, expected = 2
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 222, after cardEffect = 219, expected = 219
+coin count original = 222, after cardEffect = 219
+discard count original = 128, after cardEffect = 128, expected = 130
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 153, after cardEffect = 150, expected = 150
+coin count original = 153, after cardEffect = 150
+discard count original = 176, after cardEffect = 176, expected = 178
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 115, expected = 115
+coin count original = 118, after cardEffect = 115
+discard count original = 8, after cardEffect = 8, expected = 10
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 24
+discard count original = 77, after cardEffect = 77, expected = 77
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 45, after cardEffect = 46, expected = 46
+discard count original = 189, after cardEffect = 189, expected = 189
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 99, expected = 99
+coin count original = 100, after cardEffect = 99, expected with coins added = 102
+FAILURE: Testing found bug in steward
+discard count original = 129, after cardEffect = 129, expected = 129
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 43, after cardEffect = 42, expected = 42
+coin count original = 43, after cardEffect = 42, expected with coins added = 45
+FAILURE: Testing found bug in steward
+discard count original = 85, after cardEffect = 85, expected = 85
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 0, after cardEffect = 1, expected = 1
+discard count original = 196, after cardEffect = 0, expected = 196
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 121, after cardEffect = 120, expected = 120
+coin count original = 121, after cardEffect = 120, expected with coins added = 123
+FAILURE: Testing found bug in steward
+discard count original = 138, after cardEffect = 138, expected = 138
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 26, after cardEffect = 23, expected = 23
+coin count original = 26, after cardEffect = 23
+discard count original = 40, after cardEffect = 40, expected = 42
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 141, after cardEffect = 140, expected = 140
+coin count original = 141, after cardEffect = 140, expected with coins added = 143
+FAILURE: Testing found bug in steward
+discard count original = 208, after cardEffect = 208, expected = 208
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 1.
+cardEffect return = 0, expected = 0
+hand count original = 104, after cardEffect = 105, expected = 105
+discard count original = 93, after cardEffect = 0, expected = 93
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 3.
+cardEffect return = 0, expected = 0
+hand count original = 46, after cardEffect = 43, expected = 43
+coin count original = 46, after cardEffect = 43
+discard count original = 49, after cardEffect = 49, expected = 51
+FAILURE: Testing found bug in steward
+Number of original played stewards = 0, after cardEffect = 0 
+FAILURE: Testing found bug in steward
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: steward --------------
+Choice1 was 2.
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 95, expected = 95
+coin count original = 96, after cardEffect = 95, expected with coins added = 98
+FAILURE: Testing found bug in steward
+discard count original = 215, after cardEffect = 215, expected = 215
+Number of original played stewards = 0, after cardEffect = 1 
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+ >>>>> Testing complete steward <<<<<
+
+ 
+callSteward() Results: 
+Lines executed:100.00% of 10
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+ 
+cardEffect Results: 
+Lines executed:9.88% of 243
+Branches executed:11.83% of 169
+Taken at least once:7.10% of 169
+ 
+
