@@ -44,7 +44,7 @@ randomtestcard2: randomtestcard2.c dominion.o interface.o rngs.o
 randomtestresults.out: randomtestadventurer.c randomtestcard1.c randomtestcard2.c dominion.c interface.o rngs.o
 
 	echo “randomTestAdventurer.c” >> randomtestadventurer.out
-	gcc -o randomtestadventurer randomTestAdventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
 	./randomtestadventurer >> randomtestadventurer.out
 	gcov -b dominion.c >> /dev/null
 	echo " \ncallAdventurer() Results: " >> randomtestadventurer.out
