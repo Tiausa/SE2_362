@@ -27,11 +27,11 @@ interface.o: interface.h interface.c
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
-all: playdom player testDrawCard testBuyCard badTestDrawCard randomTestAdventurer randomtestcard1 randomtestcard2 randomtestresults.out
+all: playdom player testDrawCard testBuyCard badTestDrawCard randomtestadventurer randomtestcard1 randomtestcard2 randomtestresults.out
 
 
-randomTestAdventurer: randomTestAdventurer.c dominion.o interface.o rngs.o
-	gcc -o randomTestAdventurer randomTestAdventurer.c -g dominion.o interface.o rngs.o $(CFLAGS)
+randomtestadventurer: randomtestadventurer.c dominion.o interface.o rngs.o
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.o interface.o rngs.o $(CFLAGS)
 
 randomtestcard1: randomtestcard1.c dominion.o interface.o rngs.o
 	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o interface.o rngs.o $(CFLAGS)
@@ -41,11 +41,11 @@ randomtestcard2: randomtestcard2.c dominion.o interface.o rngs.o
 
 
 # Source: The gcov -abcfu ... comes from https://piazza.com/class/jbk4lmzexg4ce?cid=87
-randomtestresults.out: randomTestAdventurer.c randomtestcard1.c randomtestcard2.c dominion.c interface.o rngs.o
+randomtestresults.out: randomtestadventurer.c randomtestcard1.c randomtestcard2.c dominion.c interface.o rngs.o
 
 	echo “randomTestAdventurer.c” >> randomtestadventurer.out
-	gcc -o randomTestAdventurer randomTestAdventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
-	./randomTestAdventurer >> randomtestadventurer.out
+	gcc -o randomtestadventurer randomTestAdventurer.c -g dominion.c interface.o rngs.o $(CFLAGS)
+	./randomtestadventurer >> randomtestadventurer.out
 	gcov -b dominion.c >> /dev/null
 	echo " \ncallAdventurer() Results: " >> randomtestadventurer.out
 	gcov -abcfu dominion.c | sed -n '/callAdventurer/{n;p; n;p; n;p;}' >> randomtestadventurer.out
