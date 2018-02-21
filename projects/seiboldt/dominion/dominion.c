@@ -705,7 +705,7 @@ callAdventurer(struct gameState *state, int currentPlayer, int *temphand, int dr
 int callSmithy(int i, int currentPlayer, struct gameState *state, int handPos) {
 
 
-    for (i = 0; i < 2; i++) {
+    for (i = 0; i < 3; i++) {
         drawCard(currentPlayer, state);
     }
 
