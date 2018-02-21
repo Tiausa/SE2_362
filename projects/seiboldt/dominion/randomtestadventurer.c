@@ -1,4 +1,8 @@
 //
+// Created by Tia on 20/02/18.
+//
+
+//
 // Created by Tia on 06/02/18.
 //
 
@@ -41,6 +45,14 @@ int main (int argc, char** argv) {
     arr[10] = minion; arr[11] = steward; arr[12] = tribute; arr[13] = ambassador; arr[14] = cutpurse; arr[15] = embargo; arr[16] = outpost; arr[17] = salvager; arr[18] = sea_hag; arr[19] = treasure_map;
     randomize (arr);
 
+    //create two different game states, such that one is the original before function is called,
+    //and the other is after the function has been called.
+    struct gameState G, testG;
+
+    //plant a seed and select a stream for Random() - these numbers are random, however,
+    //they are hard coded, so that the test can be rerun with the exact same random
+    //numbers so that failing tests can be observed.
+    SelectStream(50);
 
     printf("\n--------------- Randomly Testing Card: %s --------------\n", TESTCARD);
 
@@ -53,40 +65,34 @@ int main (int argc, char** argv) {
         //plant a seed and select a stream for Random() - these numbers are random, however,
         //they are hard coded, so that the test can be rerun with the exact same random
         //numbers so that failing tests can be observed.
-        SelectStream(50);
         seedN++;
         PlantSeeds(seedN);
 
-        //create two different game states, such that one is the original before function is called,
-        //and the other is after the function has been called.
-        struct gameState G, testG;
-
-
-        //randomly create the bytes for the game struct
-        for (i = 0; i < sizeof(struct gameState); i++) {
-            ((char*)&G)[i] = (char) floor(Random() * sizeof(struct gameState)-1);}
-
+        //for flip, explicitly allocate space for g and testG.
+        //on my computer, this is not necessary. 
+        memset(&G, 0, sizeof(struct gameState));
+        memset(&testG, 0, sizeof(struct gameState));
 
         //set the number of players to be between 2 and 4
-       G.numPlayers = (int) (2 + floor(Random() * 2));
+        G.numPlayers = (int) (2 + floor(Random() * 2));
 
         //figure out randomly whose turn it will be and place it in variable thisPlayer
-       G.whoseTurn = (int) floor(Random() * G.numPlayers);
+        G.whoseTurn = (int) floor(Random() * G.numPlayers);
         thisPlayer = G.whoseTurn;
 
         //initialize the game. Put a random seed into the game.
         initializeGame(G.numPlayers, arr, (int)(1 + floor(Random()*500)) , &G);
 
-       //Go through each player
-      int p = 0;
+        //Go through each player
+        int p = 0;
         for (p = 0; p < G.numPlayers; p++) {
             //set the discard pile for this player to be a random number at most
             // proportionate to the max of that player's deck
-            G.discardCount[p] = (int) floor(Random() * (MAX_DECK / G.numPlayers));
+            G.discardCount[p] = (int) floor(Random() * 50);
 
             //set the hand pile for this player to be a random number at most
             // proportionate to the max of that player's hand
-            G.handCount[p] = (int) floor(Random() * (MAX_HAND / G.numPlayers));
+            G.handCount[p] = (int) floor(Random() * 50);
 
             //set the deck to be deck to be between 0 and 8, such that about
             //every eight rounds, the deck is zero and we can test this boundary case.
@@ -95,7 +101,7 @@ int main (int argc, char** argv) {
         }
 
         //for each card in the player's hand pile, set it to a random valid card.
-        for (i = 0; i < MAX_HAND; i++) {
+        for (i = 0; i < 50; i++) {
             if (!i%10){
                 //the treasure cards are cards 4, 5 and 6.
                 G.hand[thisPlayer][i] = (int) (4 + floor(Random() * 3));
@@ -105,7 +111,7 @@ int main (int argc, char** argv) {
             }
         }
         //for each card in the player's deck, set it to a random valid card.
-        for (i = 0; i < MAX_DECK; i++) {
+        for (i = 0; i < 50; i++) {
             if (!i%10){
                 //the treasure cards are cards 4, 5 and 6.
                 G.deck[thisPlayer][i] = (int) (4 + floor(Random() * 3));
@@ -115,7 +121,7 @@ int main (int argc, char** argv) {
             }
         }
         //for each card in the player's discard pile, set it to a random valid card.
-        for (i = 0; i < MAX_DECK; i++) {
+        for (i = 0; i < 50; i++) {
             if (!i%10){
                 //the treasure cards are cards 4, 5 and 6.
                 G.discard[thisPlayer][i] = (int) (4 + floor(Random() * 3));
@@ -193,7 +199,7 @@ int main (int argc, char** argv) {
 
 
         //put the adventurer card into a random place in the player's hand
-        G.hand[thisPlayer][(int) floor(Random() * MAX_HAND)] = adventurer;
+        G.hand[thisPlayer][(int) floor(Random() * 50)] = adventurer;
 
         //put random cards into the different choices.
         //There are 500 cards in the base dominion game total, so
@@ -221,7 +227,7 @@ int main (int argc, char** argv) {
         //make a copy of the current state of the game
         memcpy (&testG, &G, sizeof(struct gameState));
 
-       cardEffectReturn = cardEffect(adventurer, choice1, choice2, choice3, &testG, currentHand, bonus);
+        cardEffectReturn = cardEffect(adventurer, choice1, choice2, choice3, &testG, currentHand, bonus);
 
 
         //go through and see if there were any failures. If so, print them and the other
@@ -231,7 +237,7 @@ int main (int argc, char** argv) {
         int silverCount = 0;
         int goldCount = 0;
         preCount = 0;
-       for(i = 0; i < G.handCount[playerTurn]; i++){
+        for(i = 0; i < G.handCount[playerTurn]; i++){
             if(G.hand[playerTurn][i] == copper){preCount++; copperCount++;}
             else if(G.hand[playerTurn][i] == silver){preCount++; silverCount++;}
             else if(G.hand[playerTurn][i] == gold){preCount++; goldCount++; }
@@ -281,7 +287,7 @@ int main (int argc, char** argv) {
 
         countPasses += assertTrue1(testG.discardCount[thisPlayer] < G.discardCount[thisPlayer], discardcount, 5, thisPlayer, 2);
 
-        //check that shuffle works. 
+        //check that shuffle works.
         //copied from lesson 11: Random Testing, https://oregonstate.instructure.com/courses/1662160/pages/lesson-11-random-testing-1?module_item_id=17735019
         //shuffle the discard pile back into a deck
         int shuffleCount = 0;
@@ -291,14 +297,14 @@ int main (int argc, char** argv) {
         }
         testG.deckCount[thisPlayer] = testG.discardCount[thisPlayer];
         testG.discardCount[thisPlayer] = 0;
-        
+
         //shuffle the deck
         int shuffleReturn = shuffle(thisPlayer, &testG);
         testG.discardCount[thisPlayer] = 0;
-        
+
         char shuffleC [] = "shuffle";
         countPasses += assertTrue1(shuffleReturn != 0, shuffleC, 0, thisPlayer, 2);
-        
+
         //expect the testG's game setup to have the same amount of estate cards as the before cardEffect was run.
         char estatecount [] = "estate count";
 
@@ -352,7 +358,7 @@ int main (int argc, char** argv) {
         if(countPasses != 16){
             printf("\n---------------Failures were found in: %s --------------\n", TESTCARD);
 
-        printf("Coins in hand before cardEffect. Number of coppers: %d. Number of silvers: %d. Number of gold: %d. \n", copperCount, silverCount, goldCount);
+            printf("Coins in hand before cardEffect. Number of coppers: %d. Number of silvers: %d. Number of gold: %d. \n", copperCount, silverCount, goldCount);
 
             countPasses += assertTrue( cardEffectReturn == 0, cardEffectSuccess, 1, thisPlayer, 2);
 
@@ -360,33 +366,33 @@ int main (int argc, char** argv) {
             countPasses += assertTrue( preCount + 2 ==  aftercount, coinCountAmount, 1, thisPlayer, 2);
 
 
-        printf("discard count original = %d, after cardEffect = %d\n",G.discardCount[thisPlayer], testG.discardCount[thisPlayer]);
+            printf("discard count original = %d, after cardEffect = %d\n",G.discardCount[thisPlayer], testG.discardCount[thisPlayer]);
             countPasses += assertTrue(testG.discardCount[thisPlayer] < G.discardCount[thisPlayer], discardcount, 5, thisPlayer, 2);
 
-        printf("Number of original discarded Adventurers = %d, after cardEffect = %d \n",countA, countB);
+            printf("Number of original discarded Adventurers = %d, after cardEffect = %d \n",countA, countB);
             countPasses += assertTrue(countA < countB, discardAdv, 1, thisPlayer, 2);
 
-        printf("cardEffect return = %d, expected = %d\n", cardEffectReturn, 0);
+            printf("cardEffect return = %d, expected = %d\n", cardEffectReturn, 0);
 
-        //check that shuffle works.
-        //copied from lesson 11: Random Testing, https://oregonstate.instructure.com/courses/1662160/pages/lesson-11-random-testing-1?module_item_id=17735019
-        //shuffle the discard pile back into a deckshuffleCount = 0;
-        for (shuffleCount = 0; shuffleCount < testG.discardCount[thisPlayer]; shuffleCount++){
-            testG.deck[thisPlayer][shuffleCount] = testG.discard[thisPlayer][shuffleCount];
-            testG.discard[thisPlayer][shuffleCount] = -1;
-        }
-        testG.deckCount[thisPlayer] = testG.discardCount[thisPlayer];
-        testG.discardCount[thisPlayer] = 0;
+            //check that shuffle works.
+            //copied from lesson 11: Random Testing, https://oregonstate.instructure.com/courses/1662160/pages/lesson-11-random-testing-1?module_item_id=17735019
+            //shuffle the discard pile back into a deckshuffleCount = 0;
+            for (shuffleCount = 0; shuffleCount < testG.discardCount[thisPlayer]; shuffleCount++){
+                testG.deck[thisPlayer][shuffleCount] = testG.discard[thisPlayer][shuffleCount];
+                testG.discard[thisPlayer][shuffleCount] = -1;
+            }
+            testG.deckCount[thisPlayer] = testG.discardCount[thisPlayer];
+            testG.discardCount[thisPlayer] = 0;
 
-        //shuffle the deck
-        shuffleReturn = shuffle(thisPlayer, &testG);
-        testG.discardCount[thisPlayer] = 0;
+            //shuffle the deck
+            shuffleReturn = shuffle(thisPlayer, &testG);
+            testG.discardCount[thisPlayer] = 0;
 
-        //char shuffle [] = "shuffle";
-        countPasses += assertTrue1(shuffleReturn != 0, shuffleC, 0, thisPlayer, 2);
+            //char shuffle [] = "shuffle";
+            countPasses += assertTrue1(shuffleReturn != 0, shuffleC, 0, thisPlayer, 2);
 
-        printf("coin value total original = %d, after cardEffect = %d, expected = %d\n", preCount, aftercount, preCount + 2);
-        printf("hand count original = %d, after cardEffect = %d, expected with coins added = %d\n", G.handCount[thisPlayer], testG.handCount[thisPlayer], G.handCount[thisPlayer] + newCards - discarded);
+            printf("coin value total original = %d, after cardEffect = %d, expected = %d\n", preCount, aftercount, preCount + 2);
+            printf("hand count original = %d, after cardEffect = %d, expected with coins added = %d\n", G.handCount[thisPlayer], testG.handCount[thisPlayer], G.handCount[thisPlayer] + newCards - discarded);
             countPasses += assertTrue( testG.handCount[thisPlayer] == G.handCount[thisPlayer] + newCards - discarded, handcount, 1, thisPlayer, 2);
 
 
@@ -399,34 +405,34 @@ int main (int argc, char** argv) {
 
             printf("province count = %d, expected = %d\n", testG.supplyCount[province], G.supplyCount[province]);
 
-        printf("douchy count = %d, expected = %d\n", testG.supplyCount[duchy], G.supplyCount[duchy]);
+            printf("douchy count = %d, expected = %d\n", testG.supplyCount[duchy], G.supplyCount[duchy]);
             countPasses += assertTrue(testG.supplyCount[duchy] == G.supplyCount[duchy], douchycount, 0, gameSetup, 2);
 
-        printf("original number of actions = %d, after cardEffect = %d, expected = %d\n", G.numActions, testG.numActions, G.numActions);
+            printf("original number of actions = %d, after cardEffect = %d, expected = %d\n", G.numActions, testG.numActions, G.numActions);
             countPasses += assertTrue(testG.numActions == G.numActions, numOfActions, 0, thisPlayer, 2);
 
-        printf("number of silvers = %d, expected = %d\n", testG.supplyCount[silver], G.supplyCount[silver]);
+            printf("number of silvers = %d, expected = %d\n", testG.supplyCount[silver], G.supplyCount[silver]);
             countPasses += assertTrue(testG.supplyCount[silver] == G.supplyCount[silver], numberOfSilvers, 0, thisPlayer, 2);
 
-        printf("number of coppers = %d, expected = %d\n", testG.supplyCount[copper], G.supplyCount[copper]);
+            printf("number of coppers = %d, expected = %d\n", testG.supplyCount[copper], G.supplyCount[copper]);
             countPasses += assertTrue(testG.supplyCount[copper] == G.supplyCount[copper], numberOfCoppers, 0, thisPlayer, 2);
 
-        printf("number of golds = %d, expected = %d\n", testG.supplyCount[gold], G.supplyCount[gold]);
+            printf("number of golds = %d, expected = %d\n", testG.supplyCount[gold], G.supplyCount[gold]);
             countPasses += assertTrue(testG.supplyCount[gold] == G.supplyCount[gold], numberOfGolds, 0, thisPlayer, 2);
 
-        printf("hand count next player = %d, expected = %d\n", testG.handCount[nextPlayer], G.handCount[nextPlayer]);
+            printf("hand count next player = %d, expected = %d\n", testG.handCount[nextPlayer], G.handCount[nextPlayer]);
             countPasses += assertTrue(testG.handCount[nextPlayer] == G.handCount[nextPlayer], handcount, 0, nextPlayer, 2);
 
-        printf("deck count next player = %d, expected = %d\n", testG.deckCount[nextPlayer], G.deckCount[nextPlayer]);
+            printf("deck count next player = %d, expected = %d\n", testG.deckCount[nextPlayer], G.deckCount[nextPlayer]);
             countPasses += assertTrue(testG.deckCount[nextPlayer] == G.deckCount[nextPlayer], deckcount, 0, nextPlayer, 2);
-        printf("number of buys = %d, expected = %d\n", testG.numBuys, G.numBuys);
+            printf("number of buys = %d, expected = %d\n", testG.numBuys, G.numBuys);
             countPasses += assertTrue(testG.numBuys == G.numBuys, numberOfBuys, 0, nextPlayer, 2);
         }
         countPasses = 0;
 
     }
 
-  printf("\n >>>>> Testing complete %s <<<<<\n\n", TESTCARD);
+    printf("\n >>>>> Testing complete %s <<<<<\n\n", TESTCARD);
 
 
     return 0;
@@ -443,7 +449,7 @@ int main (int argc, char** argv) {
 int* randomize (int arr[] )
 {
 
-int n = 20;
+    int n = 20;
     //plant a seed and select a stream for Random() - these numbers are random, however,
     //they are hard coded, so that the test can be rerun with the exact same random
     //numbers so that failing tests can be observed.
