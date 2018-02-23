@@ -1,0 +1,4215 @@
+“randomtestcard1.c”
+
+--------------- Randomly Testing Card: Smithy --------------
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 14, after cardEffect = 15, expected = 16
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 85
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 67, expected = 67
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 72, after cardEffect = 73, expected = 74
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 4 
+FAILURE: Testing found bug in smithy
+discard count original = 138, after cardEffect = 138
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 1, expected = 1
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 84, after cardEffect = 85, expected = 86
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 8, after cardEffect = 8 
+FAILURE: Testing found bug in smithy
+discard count original = 170, after cardEffect = 170
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 38, expected = 38
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 35, after cardEffect = 36, expected = 37
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 93
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 19, expected = 19
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 55, after cardEffect = 56, expected = 57
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 93
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 137, expected = 137
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 226, after cardEffect = 227, expected = 228
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 10, after cardEffect = 10 
+FAILURE: Testing found bug in smithy
+discard count original = 183, after cardEffect = 183
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 18, after cardEffect = 19, expected = 20
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 48, after cardEffect = 48
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 155, expected = 155
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 75, after cardEffect = 76, expected = 77
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 101, after cardEffect = 101
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 90, expected = 90
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 206, after cardEffect = 207, expected = 208
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 83, after cardEffect = 83
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 38, after cardEffect = 39, expected = 40
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 55, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 108, expected = 108
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 58, after cardEffect = 59, expected = 60
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 56, after cardEffect = 56
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 60, expected = 60
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 100
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 94, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 96, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 18, expected = 18
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 3, after cardEffect = 3, expected = 5
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 0, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 79, after cardEffect = 80, expected = 81
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 63, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 65, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 13, expected = 13
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 52, after cardEffect = 53, expected = 54
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 5, after cardEffect = 5 
+FAILURE: Testing found bug in smithy
+discard count original = 102, after cardEffect = 102
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 147
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 13, after cardEffect = 13
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 61, after cardEffect = 62, expected = 63
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 19, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 20, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 149, expected = 149
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 194, after cardEffect = 195, expected = 196
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 8, after cardEffect = 8 
+FAILURE: Testing found bug in smithy
+discard count original = 115, after cardEffect = 115
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 18, expected = 18
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 101, expected = 102
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 19, after cardEffect = 19
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 82, after cardEffect = 83, expected = 84
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 29, after cardEffect = 29
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 101, expected = 101
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 149, after cardEffect = 150, expected = 151
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 122, after cardEffect = 122
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 242, after cardEffect = 243, expected = 244
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 30, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 32, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 65, after cardEffect = 66, expected = 67
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 150
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 72, expected = 72
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 122, after cardEffect = 123, expected = 124
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 37, after cardEffect = 37
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 6, expected = 6
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 222, after cardEffect = 223, expected = 224
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 182, after cardEffect = 182
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 87
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 7, after cardEffect = 7 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 158
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 24, expected = 24
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 105, after cardEffect = 106, expected = 107
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 158
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 142, expected = 142
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 114, after cardEffect = 115, expected = 116
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 195, after cardEffect = 195
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 105, expected = 105
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 68, after cardEffect = 69, expected = 70
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 113, after cardEffect = 113
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 160, expected = 160
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 126, after cardEffect = 127, expected = 128
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 69, after cardEffect = 70, expected = 71
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 200, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 7, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 202, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 51, after cardEffect = 52, expected = 53
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 68, after cardEffect = 68
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 131, expected = 131
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 108, after cardEffect = 109, expected = 110
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 121, after cardEffect = 121
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 65, expected = 65
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 25
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 5, after cardEffect = 5 
+FAILURE: Testing found bug in smithy
+discard count original = 208, after cardEffect = 208
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 72, expected = 73
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 76, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 83, expected = 83
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 91, after cardEffect = 92, expected = 93
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 76, after cardEffect = 76
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 35, expected = 35
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 166, expected = 167
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 221, after cardEffect = 221
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 97, expected = 98
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 19, after cardEffect = 19
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 112, after cardEffect = 113, expected = 114
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 83, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 154, expected = 154
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 120, after cardEffect = 121, expected = 122
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 227, after cardEffect = 227
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 239, expected = 240
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 32, after cardEffect = 32
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 94, after cardEffect = 95, expected = 96
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 39, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 40, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 12, after cardEffect = 13, expected = 14
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 240, after cardEffect = 240
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 194, expected = 195
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 38, after cardEffect = 38
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 115, after cardEffect = 116, expected = 117
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 49, after cardEffect = 49
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 76, expected = 76
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 217, after cardEffect = 218, expected = 219
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 245, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 8, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 247, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 87
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 51, after cardEffect = 51
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 100
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 4, after cardEffect = 4
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 156, after cardEffect = 157, expected = 158
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 57
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 147, expected = 147
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 41, expected = 42
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 56, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 119, expected = 120
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 12, after cardEffect = 12
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 165, expected = 165
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 138, after cardEffect = 139, expected = 140
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 12, after cardEffect = 12
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 118, expected = 118
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 182, after cardEffect = 183, expected = 184
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 7, after cardEffect = 7 
+FAILURE: Testing found bug in smithy
+discard count original = 70, after cardEffect = 70
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 50, after cardEffect = 51, expected = 52
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 64, after cardEffect = 64
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 4, expected = 4
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 159, after cardEffect = 160, expected = 161
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 20, after cardEffect = 20
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 70, expected = 70
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 136, after cardEffect = 137, expected = 138
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 77
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 70, after cardEffect = 71, expected = 72
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 72, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 73, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 123, expected = 123
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 142, after cardEffect = 143, expected = 144
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 4 
+FAILURE: Testing found bug in smithy
+discard count original = 141, after cardEffect = 141
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 40, expected = 40
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 29, expected = 30
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 88, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 90, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 209, after cardEffect = 210, expected = 211
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 138, after cardEffect = 138
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 162, after cardEffect = 163, expected = 164
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 148, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 8, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 159, expected = 159
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 233, after cardEffect = 234, expected = 235
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 96, after cardEffect = 96
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 103
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 148, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 147
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 104, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 105, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 129, expected = 129
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 125, after cardEffect = 126, expected = 127
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 6 
+FAILURE: Testing found bug in smithy
+discard count original = 109, after cardEffect = 109
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 56, after cardEffect = 57, expected = 58
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 7, after cardEffect = 7 
+FAILURE: Testing found bug in smithy
+discard count original = 157, after cardEffect = 157
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 166, expected = 167
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 114, after cardEffect = 114
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 81, expected = 81
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 80, after cardEffect = 81, expected = 82
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 115, after cardEffect = 115
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 198, after cardEffect = 199, expected = 200
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 170, after cardEffect = 170
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 97, after cardEffect = 98, expected = 99
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 87, expected = 87
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 41, expected = 42
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 122, after cardEffect = 122
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 152, expected = 152
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 153, after cardEffect = 154, expected = 155
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 176, after cardEffect = 176
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 119, expected = 120
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 8, after cardEffect = 8
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 39, expected = 39
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 25
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 77
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 122, expected = 122
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 45, after cardEffect = 46, expected = 47
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 189, after cardEffect = 189
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 101, expected = 102
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 129, after cardEffect = 129
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 43, after cardEffect = 44, expected = 45
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 85
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 75, expected = 75
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 0, after cardEffect = 1, expected = 2
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 194, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 196, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 121, after cardEffect = 122, expected = 123
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 136, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 138, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 128, expected = 128
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 26, after cardEffect = 27, expected = 28
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 40, after cardEffect = 40
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 45, expected = 45
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 141, after cardEffect = 142, expected = 143
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 208, after cardEffect = 208
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 104, after cardEffect = 105, expected = 106
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 92, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 98, expected = 98
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 161, after cardEffect = 162, expected = 163
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 144, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 146, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 32, expected = 32
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 97, expected = 98
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 215, after cardEffect = 215
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 214, after cardEffect = 215, expected = 216
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 19, after cardEffect = 19
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 143, expected = 143
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 144, after cardEffect = 145, expected = 146
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 100, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 101, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 3, expected = 3
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 239, expected = 240
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 228, after cardEffect = 228
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 169, after cardEffect = 170, expected = 171
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 26, after cardEffect = 26
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 172, expected = 172
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 166, expected = 167
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 3 
+FAILURE: Testing found bug in smithy
+discard count original = 110, after cardEffect = 110
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 121, expected = 121
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 194, expected = 195
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 234, after cardEffect = 234
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 124, after cardEffect = 125, expected = 126
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 32, after cardEffect = 32
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 201, expected = 201
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 147, after cardEffect = 148, expected = 149
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 65, after cardEffect = 65
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 91, expected = 91
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 148, after cardEffect = 149, expected = 150
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 240, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 14, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 241, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 115, expected = 115
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 16, after cardEffect = 17, expected = 18
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 3 
+FAILURE: Testing found bug in smithy
+discard count original = 45, after cardEffect = 45
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 172, expected = 172
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 130, after cardEffect = 131, expected = 132
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 20, after cardEffect = 20
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 62, expected = 62
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 73, after cardEffect = 74, expected = 75
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 142, after cardEffect = 142
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 127, expected = 127
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 221, after cardEffect = 222, expected = 223
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 50, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 51, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 201, expected = 201
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 151, after cardEffect = 152, expected = 153
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 28, after cardEffect = 28
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 14, expected = 14
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 4, after cardEffect = 5, expected = 6
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 28, after cardEffect = 28
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 133, expected = 133
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 113, after cardEffect = 114, expected = 115
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 64, after cardEffect = 64
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 172, expected = 172
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 133, after cardEffect = 134, expected = 135
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 149, after cardEffect = 149
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 151, expected = 151
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 25, after cardEffect = 26, expected = 27
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 36, after cardEffect = 36
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 85, expected = 85
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 67, after cardEffect = 68, expected = 69
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 71, after cardEffect = 71
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 201, expected = 201
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 154, after cardEffect = 155, expected = 156
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 157, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 103, expected = 103
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 8, after cardEffect = 9, expected = 10
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 158
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 55, expected = 55
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 209, after cardEffect = 210, expected = 211
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 82, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 84, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 172, expected = 172
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 140, after cardEffect = 141, expected = 142
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 131, after cardEffect = 131
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 38, expected = 38
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 27, expected = 30
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 0, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 8, expected = 8
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 164, after cardEffect = 165, expected = 166
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 5, after cardEffect = 5 
+FAILURE: Testing found bug in smithy
+discard count original = 90, after cardEffect = 90
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 201, expected = 201
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 32, after cardEffect = 33, expected = 34
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 142, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 144, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 11, after cardEffect = 12, expected = 13
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 120, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 121, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 144, expected = 144
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 81, after cardEffect = 82, expected = 83
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 246, after cardEffect = 246
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 182, expected = 182
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 237, after cardEffect = 238, expected = 239
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 6 
+FAILURE: Testing found bug in smithy
+discard count original = 151, after cardEffect = 151
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 38, expected = 38
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 32, after cardEffect = 33, expected = 34
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 130, after cardEffect = 130
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 96, expected = 96
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 36, after cardEffect = 37, expected = 38
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 1, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 3, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 211, expected = 211
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 129, after cardEffect = 130, expected = 131
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 164, after cardEffect = 164
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 14, after cardEffect = 15, expected = 16
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 85
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 67, expected = 67
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 72, after cardEffect = 73, expected = 74
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 138, after cardEffect = 138
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 1, expected = 1
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 84, after cardEffect = 85, expected = 86
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 170, after cardEffect = 170
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 38, expected = 38
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 35, after cardEffect = 36, expected = 37
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 3 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 93
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 19, expected = 19
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 55, after cardEffect = 56, expected = 57
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 93
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 137, expected = 137
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 226, after cardEffect = 227, expected = 228
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 183, after cardEffect = 183
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 18, after cardEffect = 19, expected = 20
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 48, after cardEffect = 48
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 155, expected = 155
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 75, after cardEffect = 76, expected = 77
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 101, after cardEffect = 101
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 90, expected = 90
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 180, after cardEffect = 181, expected = 182
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 188, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 189, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 38, expected = 38
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 38, after cardEffect = 39, expected = 40
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 55, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 108, expected = 108
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 58, after cardEffect = 59, expected = 60
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 56, after cardEffect = 56
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 60, expected = 60
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 100
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 94, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 96, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 18, expected = 18
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 21, after cardEffect = 22, expected = 23
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 11, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 12, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 78, expected = 78
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 79, after cardEffect = 80, expected = 81
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 63, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 65, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 13, expected = 13
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 52, after cardEffect = 53, expected = 54
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 102, after cardEffect = 102
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 147
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 13, after cardEffect = 13
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 61, after cardEffect = 62, expected = 63
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 19, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 20, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 149, expected = 149
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 194, after cardEffect = 195, expected = 196
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 115, after cardEffect = 115
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 18, expected = 18
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 101, expected = 102
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 19, after cardEffect = 19
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 82, after cardEffect = 83, expected = 84
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 29, after cardEffect = 29
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 101, expected = 101
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 149, after cardEffect = 150, expected = 151
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 4, after cardEffect = 4 
+FAILURE: Testing found bug in smithy
+discard count original = 122, after cardEffect = 122
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 242, after cardEffect = 243, expected = 244
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 30, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 32, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 65, after cardEffect = 66, expected = 67
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 150
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 72, expected = 72
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 41, after cardEffect = 42, expected = 43
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 5, after cardEffect = 5 
+FAILURE: Testing found bug in smithy
+discard count original = 134, after cardEffect = 134
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 18, expected = 18
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 197, after cardEffect = 198, expected = 199
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 39, after cardEffect = 39
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 87
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 158
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 24, expected = 24
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 105, after cardEffect = 106, expected = 107
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 158, after cardEffect = 158
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 142, expected = 142
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 114, after cardEffect = 115, expected = 116
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 5, after cardEffect = 5 
+FAILURE: Testing found bug in smithy
+discard count original = 195, after cardEffect = 195
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 105, expected = 105
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 68, after cardEffect = 69, expected = 70
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 113, after cardEffect = 113
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 160, expected = 160
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 126, after cardEffect = 127, expected = 128
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 95, expected = 95
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 69, after cardEffect = 70, expected = 71
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 200, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 202, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 51, after cardEffect = 52, expected = 53
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 68, after cardEffect = 68
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 131, expected = 131
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 108, after cardEffect = 109, expected = 110
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 121, after cardEffect = 121
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 65, expected = 65
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 25
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 208, after cardEffect = 208
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 72, expected = 73
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 76, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 83, expected = 83
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 91, after cardEffect = 92, expected = 93
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 76, after cardEffect = 76
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 35, expected = 35
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 166, expected = 167
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 6 
+FAILURE: Testing found bug in smithy
+discard count original = 221, after cardEffect = 221
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 71, after cardEffect = 72, expected = 73
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 123, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 125, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 240, expected = 240
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 112, after cardEffect = 113, expected = 114
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 83, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 154, expected = 154
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 120, after cardEffect = 121, expected = 122
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 227, after cardEffect = 227
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 238, after cardEffect = 239, expected = 240
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 32, after cardEffect = 32
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 94, after cardEffect = 95, expected = 96
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 39, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 40, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 124, expected = 124
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 12, after cardEffect = 13, expected = 14
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 240, after cardEffect = 240
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 134, expected = 134
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 193, after cardEffect = 194, expected = 195
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 38, after cardEffect = 38
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 115, after cardEffect = 116, expected = 117
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 49, after cardEffect = 49
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 76, expected = 76
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 217, after cardEffect = 218, expected = 219
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 245, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 247, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 163, expected = 163
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 85, after cardEffect = 86, expected = 87
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 51, after cardEffect = 51
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 98, after cardEffect = 99, expected = 100
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 4, after cardEffect = 4
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 47, expected = 47
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 156, after cardEffect = 157, expected = 158
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 57
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 147, expected = 147
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 40, after cardEffect = 41, expected = 42
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 56, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 57, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 119, expected = 120
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 12, after cardEffect = 12
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 165, expected = 165
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 138, after cardEffect = 139, expected = 140
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 12, after cardEffect = 12
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 118, expected = 118
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 182, after cardEffect = 183, expected = 184
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 7, after cardEffect = 7 
+FAILURE: Testing found bug in smithy
+discard count original = 70, after cardEffect = 70
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 103
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 133, after cardEffect = 133
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 136, expected = 136
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 159, after cardEffect = 160, expected = 161
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 20, after cardEffect = 20
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 70, expected = 70
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 136, after cardEffect = 137, expected = 138
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 3 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 77
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 70, after cardEffect = 71, expected = 72
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 72, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 73, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 123, expected = 123
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 142, after cardEffect = 143, expected = 144
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 141, after cardEffect = 141
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 40, expected = 40
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 28, after cardEffect = 29, expected = 30
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 88, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 90, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 53, after cardEffect = 54, expected = 55
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 28, after cardEffect = 28
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 93, expected = 93
+deck count next player = 2, expected = 2
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 162, after cardEffect = 163, expected = 164
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 148, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 159, expected = 159
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 233, after cardEffect = 234, expected = 235
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 96, after cardEffect = 96
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 101, after cardEffect = 102, expected = 103
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 148, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 150, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 145, after cardEffect = 146, expected = 147
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 104, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 105, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 129, expected = 129
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 125, after cardEffect = 126, expected = 127
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 6 
+FAILURE: Testing found bug in smithy
+discard count original = 109, after cardEffect = 109
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 56, after cardEffect = 57, expected = 58
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 157, after cardEffect = 157
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 165, after cardEffect = 166, expected = 167
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 114, after cardEffect = 114
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 81, expected = 81
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 80, after cardEffect = 81, expected = 82
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 6, after cardEffect = 6 
+FAILURE: Testing found bug in smithy
+discard count original = 115, after cardEffect = 115
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 249, expected = 249
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 198, after cardEffect = 199, expected = 200
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 170, after cardEffect = 170
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 97, after cardEffect = 98, expected = 99
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 0, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 87, expected = 87
+deck count next player = 3, expected = 3
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 222, after cardEffect = 223, expected = 224
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 128, after cardEffect = 128
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 220, expected = 220
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 153, after cardEffect = 154, expected = 155
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 3, after cardEffect = 3 
+FAILURE: Testing found bug in smithy
+discard count original = 176, after cardEffect = 176
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 118, after cardEffect = 119, expected = 120
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 8, after cardEffect = 8
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 39, expected = 39
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 23, after cardEffect = 24, expected = 25
+FAILURE: Testing found bug in smithy
+deck count original = 3, after cardEffect = 1, expected = 0
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 77, after cardEffect = 77
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 122, expected = 122
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 45, after cardEffect = 46, expected = 47
+FAILURE: Testing found bug in smithy
+deck count original = 4, after cardEffect = 2, expected = 1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 189, after cardEffect = 189
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 100, after cardEffect = 101, expected = 102
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 2, after cardEffect = 2 
+FAILURE: Testing found bug in smithy
+discard count original = 129, after cardEffect = 129
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 9, expected = 9
+deck count next player = 6, expected = 6
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 43, after cardEffect = 44, expected = 45
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 85, after cardEffect = 85
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 75, expected = 75
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 0, after cardEffect = 1, expected = 2
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 194, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 196, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 121, after cardEffect = 122, expected = 123
+FAILURE: Testing found bug in smithy
+deck count original = 0, after cardEffect = 136, expected = -3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 138, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 128, expected = 128
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 26, after cardEffect = 27, expected = 28
+FAILURE: Testing found bug in smithy
+deck count original = 5, after cardEffect = 3, expected = 2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 40, after cardEffect = 40
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 45, expected = 45
+deck count next player = 0, expected = 0
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 141, after cardEffect = 142, expected = 143
+FAILURE: Testing found bug in smithy
+deck count original = 2, after cardEffect = 0, expected = -1
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 9, after cardEffect = 9 
+FAILURE: Testing found bug in smithy
+discard count original = 208, after cardEffect = 208
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 57, expected = 57
+deck count next player = 5, expected = 5
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 104, after cardEffect = 105, expected = 106
+FAILURE: Testing found bug in smithy
+deck count original = 1, after cardEffect = 92, expected = -2
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 0, after cardEffect = 0 
+FAILURE: Testing found bug in smithy
+discard count original = 93, after cardEffect = 0
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 98, expected = 98
+deck count next player = 1, expected = 1
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 46, after cardEffect = 47, expected = 48
+FAILURE: Testing found bug in smithy
+deck count original = 7, after cardEffect = 5, expected = 4
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 1, after cardEffect = 1 
+FAILURE: Testing found bug in smithy
+discard count original = 49, after cardEffect = 49
+FAILURE: Testing found bug in smithy
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 39, expected = 39
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 164, expected = 164
+deck count next player = 4, expected = 4
+number of buys = 1, expected = 1
+
+---------------Failures were found in: Smithy --------------
+cardEffect return = 0, expected = 0
+hand count original = 96, after cardEffect = 97, expected = 98
+FAILURE: Testing found bug in smithy
+deck count original = 6, after cardEffect = 4, expected = 3
+FAILURE: Testing found bug in smithy
+Number of original discarded Smithies = 10, after cardEffect = 10 
+FAILURE: Testing found bug in smithy
+discard count original = 215, after cardEffect = 215
+FAILURE: Testing found bug in smithy
+estate = 8, expected = 8, duchy = 8, expected = 8, province = 8, expected = 8
+douchy count = 8, expected = 8
+province count = 8, expected = 8
+original number of actions = 1, after cardEffect = 1, expected = 1
+number of coppers = 46, expected = 46
+number of silvers = 40, expected = 40
+number of golds = 30, expected = 30
+hand count next player = 86, expected = 86
+deck count next player = 7, expected = 7
+number of buys = 1, expected = 1
+
+ >>>>> Testing complete Smithy <<<<<
+
+ 
+callSmithy() Results: 
+ 
+cardEffect Results: 
+Lines executed:4.07% of 246
+Branches executed:12.79% of 172
+Taken at least once:1.74% of 172
+ 
+
