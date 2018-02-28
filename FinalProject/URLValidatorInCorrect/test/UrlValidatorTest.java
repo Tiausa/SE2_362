@@ -40,7 +40,85 @@ public class UrlValidatorTest extends TestCase {
    
    public void testIsValid()
    {
-	   //You can use this function for programming based testing
+
+	   boolean testStatus = false, expectedStatus = false;
+	   int runs = 0, failures = 0, successes = 0;
+	   
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   
+	   
+	   while( true ) {
+		   
+		   
+		   // Generate a valid url to test
+		   String url = "";
+		   
+		   for( int idx = 0; idx < 7; idx++ ) {
+			   switch (idx) {
+				   case 0:
+					  // Test base matches
+					  expectedStatus = true;
+					  break;
+				   case 1:
+					   // Test isValidScheme
+					   
+					   expectedStatus = false;
+					   break;
+				   case 2:
+					   // Test isValidAuthority
+					   
+					   expectedStatus = false;
+					   break;
+				   case 3:
+					   // Test isValidPath
+					   
+					   expectedStatus = false;
+					   break;
+				   case 4:
+					   // Test isValidQuery
+					   
+					   expectedStatus = false;
+					   break;
+				   case 5:
+					   // Test isValidFragment
+					   
+					   expectedStatus = false;
+					   break;
+				   case 6:
+					   // Test random combination of invalid portions
+					   
+				   default:
+					   break;
+			   }
+
+			   // Get status returned
+			   testStatus = urlVal.isValid( url );
+			   
+			   if( testStatus != expectedStatus ) {
+				   
+				   successes++;
+			   } else {
+				   
+				   failures++;
+			   }
+						  
+			  
+		   }
+		   
+		   if ( failures != 5 ) {
+			   // Unexpected result returned
+			   
+		   }
+		   
+		   
+		   successes = 0;
+		   failures = 0;
+		   
+		   runs++;
+		   if( runs > 100 ) { break; }
+		   
+	   }
+	   
 
    }
    
