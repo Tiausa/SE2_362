@@ -42,16 +42,23 @@ public class UrlValidatorTest extends TestCase {
    {
 
 	   boolean testStatus = false, expectedStatus = false;
-	   int runs = 0, failures = 0, successes = 0;
+	   int runs = 0, bugs = 0, failures = 0, successes = 0;
 	   
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   
 	   
 	   while( true ) {
 		   
+		   // Get a valid set of portions for a valid url
+		   // Need arrays for a set of valid combinations to test
+		   String scheme = "";
+		   String authority = "";
+		   String port = "";
+		   String path = "";
+		   String query = "";
 		   
-		   // Generate a valid url to test
-		   String url = "";
+		   // Build a valid url to test
+		   String url = scheme + authority + port + path + query;
 		   
 		   for( int idx = 0; idx < 7; idx++ ) {
 			   switch (idx) {
@@ -87,6 +94,8 @@ public class UrlValidatorTest extends TestCase {
 				   case 6:
 					   // Test random combination of invalid portions
 					   
+					   expectedStatus = false;
+					   break;
 				   default:
 					   break;
 			   }
@@ -94,20 +103,19 @@ public class UrlValidatorTest extends TestCase {
 			   // Get status returned
 			   testStatus = urlVal.isValid( url );
 			   
-			   if( testStatus != expectedStatus ) {
-				   
+			   if( testStatus == expectedStatus ) {
 				   successes++;
 			   } else {
-				   
+				   System.out.println( "[BUG OCCURED] URL: " + url );
 				   failures++;
 			   }
 						  
 			  
 		   }
 		   
-		   if ( failures != 5 ) {
+		   if ( successes != 1 && failures != 6 ) {
 			   // Unexpected result returned
-			   
+			   bugs++;
 		   }
 		   
 		   
