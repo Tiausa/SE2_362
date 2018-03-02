@@ -1,44 +1,31 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
-{\fonttbl\f0\fnil\fcharset0 Calibri;}
-{\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\ri-46\partightenfactor0
+Bug 1 in Teammate’s Code
+Reporter: Tia Seibold (seiboldt@oregonstate.edu)
+Product: dominion.c (bryerl, Lane Bryer) 
+Version: bryerl’s Assignment 2
+Location: https://github.com/lanebryer/CS362-004-W2018/tree/bryerl-assignment-2/projects/bryerl/dominion/dominion.c
+Function: greatHallEffect (called in cardEffect)
+Classification: Minor bug
+Severity: minor (no security compromised, only this function affected) 
+Priority: low (should be fixed, but no deadline) 
+Operating System: All (tested on OS X El Capitan and Windows 7)
+Platform: All (Clion, Pycharm, Terminal) 
+Summary: greatHallEffect increments number of actions by two. It should increment the number of actions by one. 
+To find this bug, I ran Assignment 2’s cardtest3.c on bryerl’s dominion.c After this had run successfully, the unittestresults.out reported that there was a failure, which came from that the number of expected actions was not the same as actual number of actions after cardEffect had been called. Looking at the dominion code, the number of actions equals the number of actions plus two, instead of plus one, thus increasing the number of actions by two instead of one. This bug can be found in line 692: state->numActions = state->numActions + 2;.
+This bug can be replicated by placing my cardtest3.c and my makefile into the same directory as bryerl's dominion implementation, as was done here: https://github.com/TiaSeibold/CS362-004-W2018/tree/seiboldt-assignment-5/projects/seiboldt/bryerlDominion/dominion. Then, one would type make unitAndRandom into the terminal in this directory. This will result in lines being output into the GreatHallUnitTest.out file that declare there is a failure and the number of expected actions does not match the number of actions after cardEffect is called. 
 
-\f0\fs24 \cf0 Bug 1 in Teammate\'92s Code\
-Reporter: Tia Seibold (seiboldt@oregonstate.edu)\
-Product: dominion.c (bryerl, Lane Bryer) \
-Version: bryerl\'92s Assignment 2\
-Location: {\field{\*\fldinst{HYPERLINK "https://github.com/lanebryer/CS362-004-W2018/tree/master/projects/bryerl/dominion"}}{\fldrslt https://github.com/lanebryer/CS362-004-W2018/tree/bryerl-assignment-2/projects/bryerl/dominion}}/dominion.c\
-Function: greatHallEffect (called in cardEffect)\
-\pard\pardeftab720\ri-386\partightenfactor0
-\cf0 Classification: Minor bug\
-Severity: minor (no security compromised, only this function affected) \
-Priority: low (should be fixed, but no deadline) \
-\pard\pardeftab720\ri-386\sl240\partightenfactor0
-\cf0 Operating System: All (tested on OS X El Capitan and Windows 7)\
-Platform: All (Clion, Pycharm, Terminal) \
-\pard\pardeftab720\ri-46\partightenfactor0
-\cf0 Summary: greatHallEffect increments number of actions by two. It should increment the number of actions by one. \
-To find this bug, I ran Assignment 2\'92s cardtest3.c on bryerl\'92s dominion.c After this had run successfully, the unittestresults.out reported that there was a failure, which came from that the number of expected actions was not the same as actual number of actions after cardEffect had been called. Looking at the dominion code, the number of actions equals the number of actions plus two, instead of plus one, thus increasing the number of actions by two instead of one. This bug can be found in line 692: state->numActions = state->numActions + 2;\
-This bug can be replicated by placing my cardtest3.c and my makefile into the same directory as bryerl's dominion implementation. Then, one would type make unittestresults.out in the terminal in this directory. This will result in lines being output into the unittestresults.out file the declare there is a failure and the number of expected actions does not match the number of actions after cardEffect is called. \
-\
-Bug 2 in Teammate\'92s Code\
-Reporter: Tia Seibold (seiboldt@oregonstate.edu)\
-Product: dominion.c (bryerl, Lane Bryer)\
-Version: bryerl\'92s Assignment 2\
-Location: {\field{\*\fldinst{HYPERLINK "https://github.com/lanebryer/CS362-004-W2018/tree/master/projects/bryerl/dominion"}}{\fldrslt https://github.com/lanebryer/CS362-004-W2018/tree/bryerl-assignment-2/projects/bryerl/dominion}}/dominion.c\
-Function: smithyEffect (called in cardEffect)\
-\pard\pardeftab720\ri-386\partightenfactor0
-\cf0 Classification: Minor bug\
-Severity: minor (no security compromised, only this function affected) \
-Priority: low (should be fixed, but no deadline) \
-\pard\pardeftab720\ri-386\sl240\partightenfactor0
-\cf0 Operating System: All (tested on OS X El Capitan and Windows 7)\
-Platform: All (Clion, Pycharm, Terminal) \
-\pard\pardeftab720\ri-46\partightenfactor0
-\cf0 Summary: smithyEffect increments number of cards in the player\'92s hand by one and decrements the player\'92s deck by two. It should increment the number of cards in the player\'92s hand by two and decrement the deck count by three. This is because the player\'92s hand should gain three cards from the deck, thus the deck decrements by three, and then the player should lay down their smithy card, thus they are left with two extra cards in their hand. \
-To find this bug, I ran Assignment 2\'92s cardtest1.c on bryerl\'92s dominion.c After this had run successfully, the unittestresults.out reported that there was a failure, which came from that the number of expected cards in hand was not the same as actual number of cards in hand after cardEffect had been called. It then proceeded to speak of the next failure, which is that the deck count had been decremented by two instead of by three. \
-This card was also tested in randomtestcard1.c, so I ran this test as well  on bryerl\'92s dominion.c implementation. This resulted in randomtestcard1.c printing out two failures related to this bug, the first being that the hand count had not incremented by two as expected and the second that the deck count had not decremented as expected by three. \
- Looking at the dominion code, the number of cards equals increments from 0 to less than 2, thus only two cards are drawn, instead of three. This bug can be found in line 651: for (i = 0; i < 2; i++)\
-This bug can be replicated by placing my cardtest1.c and my makefile into the same directory as bryerl's dominion implementation. Then, one would type make unittestresults.out into the terminal in this directory. This will result in lines being output into the unittestresults.out file the declare there is a failure and the number of expected cards in hand does not match the number of cards in hand after cardEffect is called. }
+Bug 2 in Teammate’s Code
+Reporter: Tia Seibold (seiboldt@oregonstate.edu)
+Product: dominion.c (bryerl, Lane Bryer)
+Version: bryerl’s Assignment 2
+Location: https://github.com/lanebryer/CS362-004-W2018/tree/bryerl-assignment-2/projects/bryerl/dominion/dominion.c
+Function: smithyEffect (called in cardEffect)
+Classification: Minor bug
+Severity: minor (no security compromised, only this function affected) 
+Priority: low (should be fixed, but no deadline) 
+Operating System: All (tested on OS X El Capitan and Windows 7)
+Platform: All (Clion, Pycharm, Terminal) 
+Summary: smithyEffect increments number of cards in the player’s hand by one and decrements the player’s deck by two. It should increment the number of cards in the player’s hand by two and decrement the deck count by three. This is because the player’s hand should gain three cards from the deck, thus the deck decrements by three, and then the player should lay down their smithy card, thus they are left with two extra cards in their hand. 
+To find this bug, I ran Assignment 2’s cardtest1.c on bryerl’s dominion.c After this had run successfully, the unittestresults.out reported that there was a failure, which came from that the number of expected cards in hand was not the same as actual number of cards in hand after cardEffect had been called. It then proceeded to speak of the next failure, which is that the deck count had been decremented by two instead of by three. 
+This card was also tested in randomtestcard1.c, so I ran this test as well on bryerl’s dominion.c implementation. This resulted in randomtestcard1.c printing out two failures related to this bug, the first being that the hand count had not incremented by two as expected and the second that the deck count had not decremented as expected by three. 
+ Looking at the dominion code, the number of cards equals increments from 0 to less than 2, thus only two cards are drawn, instead of three. This bug can be found in line 651: for (i = 0; i < 2; i++).
+This bug can be replicated by placing my cardtest1.c, randomtestcard1.c and my makefile into the same directory as bryerl's dominion implementation, as was done here: https://github.com/TiaSeibold/CS362-004-W2018/tree/seiboldt-assignment-5/projects/seiboldt/bryerlDominion/dominion. Then, one would type make unitAndRandom into the terminal in this directory. This will result in lines being output into the SmithyRandomTest.out and SmithyUnitTest.out file that declare there is a failure and the number of expected cards in hand does not match the number of cards in hand after cardEffect is called. 
