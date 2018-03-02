@@ -1,0 +1,1018 @@
+“cardtest1.c, smithy unit test”
+----------------- Testing cardtest1: smithy ----------------
+TEST 1: +3 cards
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+hand count original = 5, after cardEffect = 7, expected = 7
+deck count original = 5, after cardEffect = 2, expected = 2
+discard count original = 5, after cardEffect = 2
+hand count next player = 0, expected = 0
+deck count next player = 10, expected = 10
+estate = 12, expected = 12, duchy = 12, expected = 12, province = 12, expected = 12
+douchy count = 12, expected = 12
+province count = 12, expected = 12
+adventurer = 10, expected = 10
+original number of actions = 1, after cardEffect = 1, expected = 1
+
+ >>>>> FOUND BUGS: Testing complete.  smithy <<<<<
+
+ 
+callSmithy() Results: 
+Lines executed:100.00% of 5
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+ 
+cardEffect Results: 
+Lines executed:6.58% of 243
+Branches executed:4.73% of 169
+Taken at least once:2.37% of 169
+ 
+
