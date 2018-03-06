@@ -38,27 +38,92 @@ public class UrlValidatorTest extends TestCase {
    }
    //You need to create more test cases for your Partitions if you need to 
    
+   
+   
+   // Programmatic Testing 
+ 
+   
+   public class TestURL {
+	   // Parts of the TestURL
+	   private String scheme = "";
+	   private String authority = "";
+	   private String port = "";
+	   private String path = "";
+	   private String query = "";
+	   // Expected validity of the TestURL
+	   private Boolean validity = true;
+	   
+	   // Our TestURL Good Options
+	   public String[] goodSchemes = { "http://", "https://", "ftp://", "h3t://", "" };
+	   public String[] goodAuthorities = { "www.google.com", "www.icann.org", "www.oregonstate.edu", "oregonstate.edu", "secure.oregonstate.com" };
+	   public String[] goodPorts = { ":80", ":8080", ":20", ":0", "" };
+	   public String[] goodPaths = { "/path", "/path/subpath", "/otherpath/", "/123abc$", "" };
+	   public String[] goodQueries = { "?search=term", "?search=term&page=1", "?search=one+two", "?action=nothing", "???" };
+	   
+	   // Our TestURL Bad Options
+	   public String[] badSchemes = { "abc://", "://", "http:/", "<#>://", "://http" };
+	   public String[] badAuthorities = {  "wwwwww.oregon.state.eedduu", "edu.oregonstate.", "oregonstate..edu", "www.com", "" };
+	   public String[] badPorts = {  ":99999", ":-99999", ":abc", ":###", ":0a1b" };
+	   public String[] badPaths = { "\\path", "../", "/path/..", "/../../path", "/../path/.." };
+	   public String[] badQueries = { "?search=/?/", "!search=&term", "term=search?", "?search=termpage=one", "search?=term" };
+	   
+	   // Base Constructor
+	   public TestURL() {
+		   super();
+		   
+		   // Set the URL
+		   scheme = goodSchemes[ (int)( Math.random() * goodSchemes.length ) ];
+		   authority = goodAuthorities[ (int)( Math.random() * goodAuthorities.length ) ];
+		   port = goodPorts[ (int)( Math.random() * goodPorts.length ) ];
+		   path = goodPaths[ (int)( Math.random() * goodPaths.length ) ];
+		   query = goodQueries[ (int)( Math.random() * goodQueries.length ) ];
+		  
+		   validity = true;
+		   
+	   }
+	   
+	   
+	   // Base getters
+	   public String getScheme() { return scheme; }
+	   public String getAuthority() { return authority; }
+	   public String getPort() { return port; }
+	   public String getPath() { return path; }
+	   public String getQuery() { return query; }
+	   public Boolean getValidity() { return validity; }
+	   
+	   // Get TestURL as URL string
+	   public String toString() {
+		   return scheme + authority + port + path + query;
+	   }
+	   
+	   // Makes a selected part of the TestURL invalid
+	   public String makeBad(int option) {
+		   return scheme + authority + port + path + query;
+	   }
+	   
+   }
+   
+   public String getURLPart(String[] options ) {
+	   int ran = (int)( Math.random() * 10 );
+	   return options[ran];
+   }
+   
    public void testIsValid()
    {
 
 	   boolean testStatus = false, expectedStatus = false;
-	   int runs = 0, bugs = 0, failures = 0, successes = 0;
+	   int runs = 0, bugs = 0, failures = 0, successes = 0;	   	   
 	   
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   
 	   
 	   while( true ) {
 		   
-		   // Get a valid set of portions for a valid url
-		   // Need arrays for a set of valid combinations to test
-		   String scheme = "";
-		   String authority = "";
-		   String port = "";
-		   String path = "";
-		   String query = "";
+		   // Build a new TestURL
+		   TestURL tester = new TestURL();
 		   
-		   // Build a valid url to test
-		   String url = scheme + authority + port + path + query;
+		   // Get the TestURL string
+		   String url = tester.toString();
 		   
 		   for( int idx = 0; idx < 7; idx++ ) {
 			   switch (idx) {

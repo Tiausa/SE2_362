@@ -81,50 +81,70 @@ protected void setUp() {
     * @param testObjects Used to create a url.
     */
    public void testIsValid(Object[] testObjects, long allowAllSchemes) {
-	      UrlValidator urlVal = new UrlValidator(null, null, allowAllSchemes);
-	      //UrlValidator urlVal = new UrlValidator(null, allowAllSchemes);
+	   UrlValidator urlVal = new UrlValidator(null, null, allowAllSchemes);
+	   //UrlValidator urlVal = new UrlValidator(null, allowAllSchemes);
+	      
       assertTrue(urlVal.isValid("http://www.google.com"));
       assertTrue(urlVal.isValid("http://www.google.com/"));
+      
       int statusPerLine = 60;
       int printed = 0;
+      
       if (printIndex)  {
          statusPerLine = 6;
       }
+      
       do {
-          StringBuilder testBuffer = new StringBuilder();
+    	  
+         StringBuilder testBuffer = new StringBuilder();
          boolean expected = true;
+         
          for (int testPartsIndexIndex = 0; testPartsIndexIndex < testPartsIndex.length; ++testPartsIndexIndex) {
             int index = testPartsIndex[testPartsIndexIndex];
             ResultPair[] part = (ResultPair[]) testObjects[testPartsIndexIndex];
             testBuffer.append(part[index].item);
             expected &= part[index].valid;
          }
+         
          String url = testBuffer.toString();
+         
          boolean result = urlVal.isValid(url);
+         
          if(result == true) {
         	 	System.out.println(url);
          }
+         
          assertEquals(url, expected, result);
+         
          if (printStatus) {
+        	 
             if (printIndex) {
                System.out.print(testPartsIndextoString());
             } else {
+            	
                if (result == expected) {
                   System.out.print('.');
                } else {
                   System.out.print('X');
                }
+               
             }
+            
             printed++;
+            
             if (printed == statusPerLine) {
                System.out.println();
                printed = 0;
             }
+            
          }
+         
       } while (incrementTestPartsIndex(testPartsIndex, testObjects));
+      
       if (printStatus) {
          System.out.println();
       }
+      
    }
 
    public void testValidator202() {
