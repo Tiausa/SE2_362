@@ -323,7 +323,7 @@ public class UrlValidatorTest extends TestCase {
 		   
 		   String url = "";
 		   
-		   for( int idx = 0; idx < 7; idx++ ) {
+		   for( int idx = 0; idx < 6; idx++ ) {
 			   
 			   if( idx == 0 ) {
 				   // Get the valid TestURL string
