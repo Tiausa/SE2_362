@@ -328,14 +328,14 @@ public class UrlValidatorTest extends TestCase {
 			   if( idx == 0 ) {
 				   // Get the valid TestURL string
 				   url = tester.getValidURL();
+				   System.out.println( "\nTEST URL: " + url );
 				   expectedStatus = true;
 			   } else {
 				   // Get a bad TestURL string
 				   url = tester.getInvalidURL( idx );
+				   System.out.println( "[ " + idx + " ] " + "UNIT TEST URL: " + url );
 				   expectedStatus = false;
 			   }
-			   
-			   System.out.println( "[ " + idx + " ] " + "CURRENT URL: " + url );
 
 			   // Test the URL using isValid()
 			   try { testStatus = urlVal.isValid( url ); }
