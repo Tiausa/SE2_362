@@ -107,7 +107,7 @@ protected void setUp() {
          }
          
          String url = testBuffer.toString();
-         
+                  
          boolean result = urlVal.isValid(url);
          
          if(result == true) {
