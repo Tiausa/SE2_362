@@ -1,4 +1,5 @@
 Bug 1 in Teammate’s Code
+Title: GreatHall increments number of actions by incorrect amount
 Reporter: Tia Seibold (seiboldt@oregonstate.edu)
 Product: dominion.c (bryerl, Lane Bryer) 
 Version: bryerl’s Assignment 2
@@ -14,6 +15,7 @@ To find this bug, I ran Assignment 2’s cardtest3.c on bryerl’s dominion.c Af
 This bug can be replicated by placing my cardtest3.c and my makefile into the same directory as bryerl's dominion implementation. Then, one would type make unitAndRandom into the terminal in this directory. This will result in lines being output into the GreatHallUnitTest.out file that declare there is a failure and the number of expected actions does not match the number of actions after cardEffect is called. 
 
 Bug 2 in Teammate’s Code
+Title: Smithy increments hand count of current player by incorrect amount
 Reporter: Tia Seibold (seiboldt@oregonstate.edu)
 Product: dominion.c (bryerl, Lane Bryer)
 Version: bryerl’s Assignment 2
